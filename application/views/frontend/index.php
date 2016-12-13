@@ -1,9 +1,128 @@
-<section class = 'pt-60'>
-	
-</section>
-<section id = 'init'>
-	<h1 class = 'align-center'>Fundamentos de programacion</h1>
-	<h3 class = 'align-center'>Frasesita, esto van con un fondo mucho mas grande re over</h3>
+<header>
+    <div class="black-background-overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header-title">
+                    <span id="typo"></span><span id="cursor">|</span>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-lg-20">
+            <div class="col-lg-12">
+                <div class="header-text">
+                    <span>¿Estás interesado en aprender a programar, pero no sabes por dónde empezar?
+                    <br>
+                    No te asustes, este curso es para ti. Aprenderás los <span class="bold">principios fundamentales</span> de una forma intuitiva y práctica.
+                    <br>
+                    Al final te darás cuenta que la programación es <span class="bold">fácil</span> y <span class="bold">apasionante</span>.
+                    <br>
+                    ¡A programar! 
+                    </span>
+                </div>
+            </div>
+        </div>            
+    </div>
+</header>
+
+<section id="section1" class="pt-lg-150 pb-lg-150">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section1-title">
+                    Millones de cosas se construyen con la programacion
+                </div>
+            </div>
+        </div>
+        <div class="row pt-lg-100">
+            <div class="col-lg-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="<?php echo base_url('public/frontend/img/section1-img1.png'); ?>" class="img-responsive center-block">                               
+                        </div>
+                    </div>
+                    <div class="row pt-lg-20">
+                        <div class="col-lg-12 section1-label">
+                            Aplicaciones Web
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="<?php echo base_url('public/frontend/img/section1-img2.png'); ?>" class="img-responsive center-block">                               
+                        </div>
+                    </div>
+                    <div class="row pt-lg-20">
+                        <div class="col-lg-12 section1-label">
+                            Videojuegos
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="<?php echo base_url('public/frontend/img/section1-img3.png'); ?>" class="img-responsive center-block">                               
+                        </div>
+                    </div>
+                    <div class="row pt-lg-20">
+                        <div class="col-lg-12 section1-label">
+                            Apps Moviles
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-lg-60">
+            <div class="col-lg-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="<?php echo base_url('public/frontend/img/section1-img4.png'); ?>" class="img-responsive center-block">                               
+                        </div>
+                    </div>
+                    <div class="row pt-lg-20">
+                        <div class="col-lg-12 section1-label">
+                            Sistemas Operativos
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="<?php echo base_url('public/frontend/img/section1-img5.png'); ?>" class="img-responsive center-block">                               
+                        </div>
+                    </div>
+                    <div class="row pt-lg-20">
+                        <div class="col-lg-12 section1-label">
+                            Motores de Busqueda
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="<?php echo base_url('public/frontend/img/section1-img6.png'); ?>" class="img-responsive center-block">                               
+                        </div>
+                    </div>
+                    <div class="row pt-lg-20">
+                        <div class="col-lg-12 section1-label">
+                            Sitios Web
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id = 'paraquienes'>
@@ -24,17 +143,6 @@
 			<div class = 'col-md-6'>
 				Tipo de persona
 			</div>
-		</div>
-	</div>
-	
-
-</section>
-
-<section id = 'construir'>
-	<h1 class = 'align-center'>Millones de cosas se construyen con la programacion</h1>
-	<div>
-		<div class = ''>
-			<p class = 'align-center'>Aqui deberian ir unos ejemplitos</p>
 		</div>
 	</div>
 </section>
@@ -128,4 +236,3 @@
 			</div>
 		</div>
 	</div>
-</section>
