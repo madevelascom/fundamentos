@@ -1,5 +1,5 @@
 <header>
-    <div class="black-background-overlay"></div>
+    
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
