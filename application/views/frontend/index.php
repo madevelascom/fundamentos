@@ -1,5 +1,4 @@
 <header>
-    
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -25,7 +24,7 @@
     </div>
 </header>
 
-<section id="section1" class="pt-lg-150 pb-lg-150">
+<section id="section1" class="pt-lg-100 pb-lg-100">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -125,23 +124,50 @@
     </div>
 </section>
 
-<section id = 'paraquienes'>
-	<div class = 'container-fluid'>
-		<h1 class = 'align-center'>Programar es para todos</h1>
-		<div class = 'row'>
-			<div class = 'col-md-6'>
-				Tipo de persona. Esto es un texto con una imagen de fondo. Ver imeteco.com
-			</div>
-			<div class = 'col-md-6'>
-				Tipo de persona
+<section id="section2" class="pt-lg-100 pb-lg-100">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section2-title">
+                    ¿Por que deberias aprender a programar?
+                </div>
+                <div class="section2-sub">
+                	No necesitas ser un genio para aprender a leer y escribir codigo. Es facil y divertido.
+                </div>
 			</div>
 		</div>
-		<div class = 'row'>
-			<div class = 'col-md-6'>
-				Tipo de persona
-			</div>
-			<div class = 'col-md-6'>
-				Tipo de persona
+		<div class="row mt-lg-40">
+			<div class="col-lg-12">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-4 icon-container">
+							<span class="daw-clock icon"></span>
+							<br>
+							<div class="icon-label bold pt-lg-20">PRODUCTIVIDAD</div>
+						</div>
+						<div class="col-lg-4 icon-container">
+							<span class="daw-device icon"></span>
+							<br>
+							<div class="icon-label bold pt-lg-20">TECNOLOGIA</div>
+						</div>
+						<div class="col-lg-4 icon-container">
+							<span class="daw-pen icon"></span>
+							<br>
+							<div class="icon-label bold pt-lg-20">CREATIVIDAD</div>
+						</div>
+					</div>
+					<div class="row mt-lg-20">
+						<div class="col-lg-4 description">
+							Puede ayudarte a simplificar y automatizar tu trabajo, no importa cual sea tu carrera
+						</div>
+						<div class="col-lg-4 description">
+							Cada vez mas sistemas emplean computadoras, y la programacion es le lenguaje que te permite comunicarte con la tecnologia
+						</div>
+						<div class="col-lg-4 description">
+							 Programar es otra forma de expresion. Podras crear tus propias aplicaciones desde cero. 
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

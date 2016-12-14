@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'daw';
+  src:  url('../fonts/daw.eot?vjg3j1');
+  src:  url('../fonts/daw.eot?vjg3j1#iefix') format('embedded-opentype'),
+    url('../fonts/daw.ttf?vjg3j1') format('truetype'),
+    url('../fonts/daw.woff?vjg3j1') format('woff'),
+    url('../fonts/daw.svg?vjg3j1#daw') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="daw-"], [class*=" daw-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'daw' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.daw-pen:before {
+  content: "\e908";
+}
+.daw-clock:before {
+  content: "\f046";
+}
+.daw-device:before {
+  content: "\f27c";
+}
+

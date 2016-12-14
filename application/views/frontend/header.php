@@ -18,6 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/made.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/ivan.css'); ?>" >
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/icons.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/fonts/font-awesome.min.css'); ?>">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
         
