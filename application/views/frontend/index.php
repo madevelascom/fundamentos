@@ -236,29 +236,3 @@
 		</div>
 	</div>
 </section>
-
-<section id = 'ganar'>
-	<div class ='container-fluid'>
-		<h1 class = 'align-center'>Que ganas?</h1>
-		<div class = 'row'>
-			<div class = 'container'>
-				<div class = 'row'>
-					<div class = 'col-md-4'>
-						<img src="http://placehold.it/200x200" class = 'img-responsive align-center'>
-						<h3>Item</h3>
-						<p>Lorem ipsum</p>
-					</div>
-					<div class = 'col-md-4'>
-						<img src="http://placehold.it/200x200" class = 'img-responsive align-center'>
-						<h3>Item</h3>
-						<p>Lorem ipsum</p>
-					</div>
-					<div class = 'col-md-4'>
-						<img src="http://placehold.it/200x200" class = 'img-responsive align-center'>
-						<h3>Item</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
