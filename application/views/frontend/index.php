@@ -140,18 +140,18 @@
 			<div class="col-lg-12">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-4 icon-container">
-							<span class="daw-clock icon"></span>
+						<div class="col-lg-4 section2-icon-container">
+							<span class="daw-clock section2-icon"></span>
 							<br>
 							<div class="icon-label bold pt-lg-20">PRODUCTIVIDAD</div>
 						</div>
-						<div class="col-lg-4 icon-container">
-							<span class="daw-device icon"></span>
+						<div class="col-lg-4 section2-icon-container">
+							<span class="daw-device section2-icon"></span>
 							<br>
 							<div class="icon-label bold pt-lg-20">TECNOLOGIA</div>
 						</div>
-						<div class="col-lg-4 icon-container">
-							<span class="daw-pen icon"></span>
+						<div class="col-lg-4 section2-icon-container">
+							<span class="daw-pen section2-icon"></span>
 							<br>
 							<div class="icon-label bold pt-lg-20">CREATIVIDAD</div>
 						</div>
@@ -182,28 +182,96 @@
 				</div>
 			</div>
 		</div>
-		<div class="row mt-lg-40"">
-			<div class="col-lg-4">
-				<ul>
-					<li>Variables y tipos de datos</li>
-					<li>Estructuras de control</li>
-					<li>Funciones</li>
+		<div class="row mt-lg-40">
+			<div class="col-lg-4 col-xs-12 pt-lg-40">
+				<ul class="no-bullet">
+					<li>
+						<div class="container-fluid pb-lg-40 section3-icon-container">
+							<div class="row center-block">
+								<div class="col-lg-2 col-xs-1">
+									<span class="daw-check section3-icon"></span>
+								</div>
+								<div class="col-lg-10 col-xs-11">
+									Variables y tipos de datos
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="container-fluid pb-lg-40 section3-icon-container">
+							<div class="row center-block">
+								<div class="col-lg-2 col-xs-1">
+									<span class="daw-check section3-icon"></span>
+								</div>
+								<div class="col-lg-10 col-xs-11">
+									Estructuras de control
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="container-fluid section3-icon-container">
+							<div class="row center-block">
+								<div class="col-lg-2 col-xs-1">
+									<span class="daw-check section3-icon"></span>
+								</div>
+								<div class="col-lg-10 col-xs-11">
+									Funciones
+								</div>
+							</div>
+						</div>
+					</li>
 				</ul>
+			</div> 
+			<div class="col-lg-4 col-xs-12 center-block">
+				<img src="<?php echo base_url('public/frontend/img/laptop.png'); ?>" class="img-responsive">
 			</div>
-			<div class="col-lg-4">
-				
-			</div>
-			<div class="col-lg-4">
-				<ul>
-					<li>Listas</li>
-					<li>Arreglos N-dimensionales</li>
-					<li>Colecciones</li>
+			<div class="col-xs-12 col-lg-4 pt-lg-40">
+				<ul class="no-bullet">
+					<li>
+						<div class="container-fluid pb-lg-40 section3-icon-container">
+							<div class="row center-block">
+								<div class="col-lg-2 col-xs-1">
+									<span class="daw-check section3-icon"></span>
+								</div>
+								<div class="col-lg-10 col-xs-11">
+									Listas
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="container-fluid pb-lg-40 section3-icon-container">
+							<div class="row center-block">
+								<div class="col-lg-2 col-xs-1">
+									<span class="daw-check section3-icon"></span>
+								</div>
+								<div class="col-lg-10 col-xs-11">
+									Arreglos N-dimensionales
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="container-fluid section3-icon-container">
+							<div class="row center-block">
+								<div class="col-lg-2 col-xs-1">
+									<span class="daw-check section3-icon"></span>
+								</div>
+								<div class="col-lg-10 col-xs-11">
+									Colecciones
+								</div>
+							</div>
+						</div>
+					</li>
 				</ul>
 			</div>
 		</div>
-		<div class = 'row'>
-			<p class = 'align-center'>El contenido es para todos. Mira el syllabus aqui.</p>
-			<button class = 'btn btn-default align-center'>Mira el syllabus</button>
+		<div class="row mt-lg-40">
+			<p class = 'align-center'>El contenido es para todos.</p>
+		</div>
+		<div class="row mt-lg-20">
+			<button class = "btn section3-btn align-center">Revisa el syllabus aqui</button>
 		</div>
 	</div>
 </section>
