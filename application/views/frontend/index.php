@@ -173,6 +173,41 @@
 	</div>
 </section>
 
+<section id="landing-section3" class="pt-lg-100 pb-lg-100">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="landing-section3-title">
+					Algunas cosas que te enseñara este curso
+				</div>
+			</div>
+		</div>
+		<div class="row mt-lg-40"">
+			<div class="col-lg-4">
+				<ul>
+					<li>Variables y tipos de datos</li>
+					<li>Estructuras de control</li>
+					<li>Funciones</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				
+			</div>
+			<div class="col-lg-4">
+				<ul>
+					<li>Listas</li>
+					<li>Arreglos N-dimensionales</li>
+					<li>Colecciones</li>
+				</ul>
+			</div>
+		</div>
+		<div class = 'row'>
+			<p class = 'align-center'>El contenido es para todos. Mira el syllabus aqui.</p>
+			<button class = 'btn btn-default align-center'>Mira el syllabus</button>
+		</div>
+	</div>
+</section>
+
 <section id = 'historias'>
 	<h1 class = 'align-center'>Testimonio de otras personas</h1>
 	<div class = 'container pt-10'>
@@ -205,34 +240,6 @@
 					<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
 				</blockquote>
 			</div>
-		</div>
-	</div>
-</section>
-
-<section id = 'programa'>
-	<div class = 'container'>
-		<h2 class = 'align-center'>Programa</h2>
-		<div class = 'row'>
-			<div class = 'col-md-offset-2 col-md-4'>
-				<h3>Algo importante</h3>
-				<ul>
-					<li>...</li>
-					<li>...</li>
-					<li>...</li>
-				</ul>
-			</div>
-			<div class = 'col-md-4'>
-				<h3>Otra cosa importante</h3>
-				<ul>
-					<li>...</li>
-					<li>...</li>
-					<li>...</li>
-				</ul>
-			</div>
-		</div>
-		<div class = 'row'>
-			<p class = 'align-center'>El contenido es para todos. Mira el syllabus aqui. Toda esta parte tendra otro fondo cool :v</p>
-			<button class = 'btn btn-default align-center'>Mira el syllabus</button>
 		</div>
 	</div>
 </section>

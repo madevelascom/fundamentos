@@ -76,6 +76,19 @@ header{
 	font-size: 18px;
 	text-align: center;
 }
+
+/**
+ * ========================================
+ * SECTION 3
+ * ========================================
+ */
+ .landing-section3-title{
+ 	font-family: 'Roboto Condensed', sans-serif;
+ 	font-size: 60px;
+ 	color: #5FCF80;
+ 	text-align: center;
+ }
+
  
 /**
  * ========================================
