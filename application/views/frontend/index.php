@@ -271,7 +271,9 @@
 			<p class = 'align-center'>El contenido es para todos.</p>
 		</div>
 		<div class="row mt-lg-20">
-			<button class = "btn section3-btn align-center">Revisa el syllabus aqui</button>
+			<div class="col-lg-2 col-lg-offset-5">
+				<a href="#" class = "btn section3-btn align-center">Revisa el syllabus aqui</a>
+			</div>
 		</div>
 	</div>
 </section>
