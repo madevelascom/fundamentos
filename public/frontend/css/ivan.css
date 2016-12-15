@@ -102,6 +102,27 @@ header{
  	font-size: 30px;
  }
 
+/**
+ * ========================================
+ * SECTION 4
+ * ========================================
+ */
+ #landing-section4{
+ 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/people.jpg) no-repeat center;
+ 	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.landing-section4-title{
+	font-family: 'Roboto Condensed', sans-serif;
+ 	font-size: 60px;
+ 	color: #5FCF80;
+ 	text-align: center;
+}
  
 /**
  * ========================================
@@ -125,4 +146,10 @@ header{
 	border-color: #5FCF80;
 	color: #5FCF80;
 	transition: all 0.25s;
+}
+.landing-quote{
+	color: #5FCF80;
+}
+.landing-quote-author{
+	color: #FFFFFF;
 }

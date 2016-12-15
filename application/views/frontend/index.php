@@ -277,38 +277,58 @@
 		</div>
 	</div>
 </section>
-
-<section id = 'historias'>
-	<h1 class = 'align-center'>Testimonio de otras personas</h1>
-	<div class = 'container pt-10'>
-		<div class = 'row'>
-			<div class = 'col-md-3'>
-				<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
-				<blockquote>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-				</blockquote>
+<section id = 'landing-section4' class="pt-lg-100 pb-lg-100">
+	<div class = 'container-fluid pt-10'>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="landing-section4-title">
+					Testimonio de algunas personas
+				</div>
 			</div>
-			<div class = 'col-md-3'>
-				<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center'>
-				<blockquote>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-				</blockquote>
-			</div>
-			<div class = 'col-md-3'>
-				<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center'>
-				<blockquote>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-				</blockquote>
-			</div>
-			<div class = 'col-md-3'>
-				<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center'>
-				<blockquote>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-					<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-				</blockquote>
+		</div>
+		<div class = 'row mt-lg-40'>
+			<div class = 'col-md-12'>
+				<div id="owl-landing-1" class="owl-carousel">
+				  <div class="container-fluid">
+				  	<div class="row">
+				  		<div class="col-lg-2 col-lg-offset-1">
+							<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
+				  		</div>
+				  		<div class="col-lg-9">
+							<blockquote>
+								<p class="landing-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+								<footer class="landing-quote-author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+							</blockquote>
+				  		</div>
+				  	</div>
+				  </div>
+				  <div class="container-fluid">
+				  	<div class="row">
+				  		<div class="col-lg-2 col-lg-offset-1">
+							<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
+				  		</div>
+				  		<div class="col-lg-9">
+							<blockquote>
+								<p class="landing-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+								<footer class="landing-quote-author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+							</blockquote>
+				  		</div>
+				  	</div>
+				  </div>
+				  <div class="container-fluid">
+				  	<div class="row">
+				  		<div class="col-lg-2 col-lg-offset-1">
+							<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
+				  		</div>
+				  		<div class="col-lg-9">
+							<blockquote>
+								<p class="landing-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+								<footer class="landing-quote-author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+							</blockquote>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
 			</div>
 		</div>
 	</div>
