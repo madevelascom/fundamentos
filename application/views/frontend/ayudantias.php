@@ -9,12 +9,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#lunes" aria-expanded="true" aria-controls="lunes">
                   Lunes
                 </a>
               </h4>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div id="lunes" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
                 <div class="row">
                     <div class="col-md-3">
@@ -39,12 +39,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingTwo">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#martes" aria-expanded="false" aria-controls="martes">
                   Martes
                 </a>
               </h4>
             </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div id="martes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="panel-body">
                 <div class="row">
                     <div class="col-md-3">
@@ -69,12 +69,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#miercoles" aria-expanded="false" aria-controls="miercoles">
                   Miercoles
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="miercoles" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 <div class="row">
                     <div class="col-md-3">
@@ -99,12 +99,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingFour">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#jueves" aria-expanded="false" aria-controls="jueves">
                   Jueves
                 </a>
               </h4>
             </div>
-            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div id="jueves" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
               <div class="panel-body">
                 <div class="row">
                     <div class="col-md-3">
@@ -129,12 +129,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingFive">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#viernes" aria-expanded="false" aria-controls="viernes">
                   Viernes
                 </a>
               </h4>
             </div>
-            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div id="viernes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
               <div class="panel-body">
                 <div class="row">
                     <div class="col-md-3">

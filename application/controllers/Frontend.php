@@ -43,7 +43,7 @@ class Frontend extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }	
 	
-	public function equipo(){
+	public function cargar_equipo(){
 		$data = "";
 		$this->load->view('frontend/equipo.json', $data);
 	}
