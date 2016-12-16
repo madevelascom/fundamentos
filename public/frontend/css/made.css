@@ -8,6 +8,14 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+nav{
+    background-color: #333333 !important;
+}
+
+.navbar-nav>li>a{
+    color: white !important;
+    font-size: 18px;
+}
 /*Login at navbar*/
 
 #login-dp{
@@ -44,4 +52,16 @@ body{
     align-items: center;
     display: block;
 
+}
+
+
+/* Quotes at index*/
+.quote{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.quote-author{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-style: italic;
 }

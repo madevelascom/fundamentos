@@ -1,5 +1,5 @@
 $(window).load(function(){
-  $("#typo").type("Fundamentos de Programacion", $("#cursor"), 500);
+  $("#typo").type("Fundamentos de Programación", $("#cursor"), 500);
   animText();
   $("#owl-landing-1").owlCarousel({
       navigation : false, // Show next and prev buttons

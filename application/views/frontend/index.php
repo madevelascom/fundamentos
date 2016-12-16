@@ -1,170 +1,122 @@
-<header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="header-title">
-                    <span id="typo"></span><span id="cursor">|</span>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-lg-20">
-            <div class="col-lg-12">
-                <div class="header-text">
-                    <span>¿Estás interesado en aprender a programar, pero no sabes por dónde empezar?
-                    <br>
-                    No te asustes, este curso es para ti. Aprenderás los <span class="bold">principios fundamentales</span> de una forma intuitiva y práctica.
-                    <br>
-                    Al final te darás cuenta que la programación es <span class="bold">fácil</span> y <span class="bold">apasionante</span>.
-                    <br>
-                    ¡A programar! 
-                    </span>
-                </div>
-            </div>
-        </div>            
-    </div>
-</header>
-
-<section id="section1" class="pt-lg-100 pb-lg-100">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section1-title">
-                    Millones de cosas se construyen con la programacion
-                </div>
-            </div>
-        </div>
-        <div class="row pt-lg-100">
-            <div class="col-lg-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="<?php echo base_url('public/frontend/img/section1-img1.png'); ?>" class="img-responsive center-block">                               
-                        </div>
-                    </div>
-                    <div class="row pt-lg-20">
-                        <div class="col-lg-12 section1-label">
-                            Aplicaciones Web
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="<?php echo base_url('public/frontend/img/section1-img2.png'); ?>" class="img-responsive center-block">                               
-                        </div>
-                    </div>
-                    <div class="row pt-lg-20">
-                        <div class="col-lg-12 section1-label">
-                            Videojuegos
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="<?php echo base_url('public/frontend/img/section1-img3.png'); ?>" class="img-responsive center-block">                               
-                        </div>
-                    </div>
-                    <div class="row pt-lg-20">
-                        <div class="col-lg-12 section1-label">
-                            Apps Moviles
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-lg-60">
-            <div class="col-lg-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="<?php echo base_url('public/frontend/img/section1-img4.png'); ?>" class="img-responsive center-block">                               
-                        </div>
-                    </div>
-                    <div class="row pt-lg-20">
-                        <div class="col-lg-12 section1-label">
-                            Sistemas Operativos
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="<?php echo base_url('public/frontend/img/section1-img5.png'); ?>" class="img-responsive center-block">                               
-                        </div>
-                    </div>
-                    <div class="row pt-lg-20">
-                        <div class="col-lg-12 section1-label">
-                            Motores de Busqueda
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="<?php echo base_url('public/frontend/img/section1-img6.png'); ?>" class="img-responsive center-block">                               
-                        </div>
-                    </div>
-                    <div class="row pt-lg-20">
-                        <div class="col-lg-12 section1-label">
-                            Sitios Web
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section id = 'intro' class = 'pt-70'> 
+	<div class="container-fluid">
+		<div class="row">
+			<div class = 'container '>
+				<div class = 'row pt-lg-150 pt-sm-30'>
+					<div class="col-lg-12">
+						<h1 class="header-title">
+							<span id="typo"></span><span id="cursor">|</span>
+						</h1>
+					</div>
+				</div>	
+				<div class="row pt-lg-20">
+					<div class="col-lg-12">
+						<div class="header-text">
+							<span>¿Estás interesado en aprender a programar, pero no sabes por dónde empezar?
+								<br>
+								No te asustes, este curso es para ti. Aprenderás los <span class="bold">principios fundamentales</span> de una forma intuitiva y práctica.
+								<br>
+								Al final te darás cuenta que la programación es <span class="bold">fácil</span> y <span class="bold">apasionante</span>.
+								<br>
+								¡A programar! 
+							</span>
+						</div>
+					</div>
+				</div> 	
+			</div>
+		</div>
+	</div>
 </section>
 
-<section id="section2" class="pt-lg-100 pb-lg-100">
+<section id="porque" class="pt-lg-100 pb-lg-100">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="section2-title">
-                    ¿Por que deberias aprender a programar?
-                </div>
-                <div class="section2-sub">
-                	No necesitas ser un genio para aprender a leer y escribir codigo. Es facil y divertido.
-                </div>
+				<h1 class="section2-title">
+					¿Por qué deberías aprender a programar?
+				</h1>
+				<h2 class="section2-sub">
+					No necesitas ser un genio para aprender a leer y escribir código. Es fácil y divertido.
+				</h2>
 			</div>
 		</div>
 		<div class="row mt-lg-40">
 			<div class="col-lg-12">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-4 section2-icon-container">
-							<span class="daw-clock section2-icon"></span>
-							<br>
-							<div class="icon-label bold pt-lg-20">PRODUCTIVIDAD</div>
+						<div class = 'container'>
+							<div class = 'row'>
+								<div class = 'col-md-4'>
+									<span class="daw-clock section2-icon align-center"></span>
+									<div class="icon-label bold pt-lg-20 align-center">Productividad</div>
+									<div class="description">
+										Puede ayudarte a simplificar y automatizar tu trabajo, no importa cual sea tu carrera
+									</div>
+								</div>
+								<div class = 'col-md-4'>
+									<span class="daw-device section2-icon align-center"></span>
+									<div class="icon-label bold pt-lg-20 align-center">Tecnología</div>
+									<div class="description">
+										Cada vez más sistemas emplean computadoras, y la programación es le lenguaje que te permite comunicarte con la tecnología
+									</div>
+								</div>
+								<div class = 'col-md-4'>
+									<span class="daw-pen section2-icon align-center"></span>
+									<div class="icon-label bold pt-lg-20 align-center">Creatividad</div>
+									<div class="description">
+										Programar es otra forma de expresión. Podrás crear tus propias aplicaciones desde cero. 
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="col-lg-4 section2-icon-container">
-							<span class="daw-device section2-icon"></span>
-							<br>
-							<div class="icon-label bold pt-lg-20">TECNOLOGIA</div>
-						</div>
-						<div class="col-lg-4 section2-icon-container">
-							<span class="daw-pen section2-icon"></span>
-							<br>
-							<div class="icon-label bold pt-lg-20">CREATIVIDAD</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id = 'citas' class="pt-lg-100 pb-lg-100">
+	<div class = 'container-fluid pt-10'>
+		<div class = 'row mt-lg-40'>
+			<div class = 'col-md-12'>
+				<div id="owl-landing-1" class="owl-carousel">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-2 col-lg-offset-1">
+								<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
+							</div>
+							<div class="col-lg-9">
+								<blockquote>
+									<p class="quote">Todos en este país deben aprender a programar porque te enseña a cómo pensar</p>
+									<footer class="quote-author">Steve Jobs</footer>
+								</blockquote>
+							</div>
 						</div>
 					</div>
-					<div class="row mt-lg-20">
-						<div class="col-lg-4 description">
-							Puede ayudarte a simplificar y automatizar tu trabajo, no importa cual sea tu carrera
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-2 col-lg-offset-1">
+								<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
+							</div>
+							<div class="col-lg-9">
+								<blockquote>
+									<p class="quote">La mayoría de buenos programadores lo hacen no porque esperan ser pagados o reconocidos sino porque programar es divertido</p>
+									<footer class="quote-author">Linus Torvalds</footer>
+								</blockquote>
+							</div>
 						</div>
-						<div class="col-lg-4 description">
-							Cada vez mas sistemas emplean computadoras, y la programacion es le lenguaje que te permite comunicarte con la tecnologia
-						</div>
-						<div class="col-lg-4 description">
-							 Programar es otra forma de expresion. Podras crear tus propias aplicaciones desde cero. 
+					</div>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-2 col-lg-offset-1">
+								<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
+							</div>
+							<div class="col-lg-9">
+								<blockquote>
+									<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+									<footer class="quote-author">Someone famous in</footer>
+								</blockquote>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -173,12 +125,116 @@
 	</div>
 </section>
 
-<section id="landing-section3" class="pt-lg-100 pb-lg-100">
-	<div class="container-fluid">
+<section id="logros" class="pt-lg-50 pb-lg-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section1-title">
+					Puedes lograr muchas cosas con la programación
+				</div>
+			</div>
+		</div>
+		<div class="row pt-lg-50">
+			<div class="col-lg-4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="<?php echo base_url('public/frontend/img/section1-img1.png'); ?>" class="img-responsive center-block">                               
+						</div>
+					</div>
+					<div class="row pt-lg-20">
+						<div class="col-lg-12 section1-label">
+							Aplicaciones web
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="<?php echo base_url('public/frontend/img/section1-img2.png'); ?>" class="img-responsive center-block">                               
+						</div>
+					</div>
+					<div class="row pt-lg-20">
+						<div class="col-lg-12 section1-label">
+							Videojuegos
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="<?php echo base_url('public/frontend/img/section1-img3.png'); ?>" class="img-responsive center-block">                               
+						</div>
+					</div>
+					<div class="row pt-lg-20">
+						<div class="col-lg-12 section1-label">
+							Aplicaciones móviles
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-lg-60">
+			<div class="col-lg-4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="<?php echo base_url('public/frontend/img/section1-img4.png'); ?>" class="img-responsive center-block">                               
+						</div>
+					</div>
+					<div class="row pt-lg-20">
+						<div class="col-lg-12 section1-label">
+							Sistemas operativos
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="<?php echo base_url('public/frontend/img/section1-img5.png'); ?>" class="img-responsive center-block">                               
+						</div>
+					</div>
+					<div class="row pt-lg-20">
+						<div class="col-lg-12 section1-label">
+							Motores de búsqueda
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<img src="<?php echo base_url('public/frontend/img/section1-img6.png'); ?>" class="img-responsive center-block">                               
+						</div>
+					</div>
+					<div class="row pt-lg-20">
+						<div class="col-lg-12 section1-label">
+							Sitios Web
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<section id="contenido" class="pt-lg-100 pb-lg-100">
+	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="landing-section3-title">
-					Algunas cosas que te enseñara este curso
+					Algunas cosas que aprenderás en este curso
 				</div>
 			</div>
 		</div>
@@ -272,63 +328,7 @@
 		</div>
 		<div class="row mt-lg-20">
 			<div class="col-lg-2 col-lg-offset-5">
-				<a href="#" class = "btn section3-btn align-center">Revisa el syllabus aqui</a>
-			</div>
-		</div>
-	</div>
-</section>
-<section id = 'landing-section4' class="pt-lg-100 pb-lg-100">
-	<div class = 'container-fluid pt-10'>
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="landing-section4-title">
-					Testimonio de algunas personas
-				</div>
-			</div>
-		</div>
-		<div class = 'row mt-lg-40'>
-			<div class = 'col-md-12'>
-				<div id="owl-landing-1" class="owl-carousel">
-				  <div class="container-fluid">
-				  	<div class="row">
-				  		<div class="col-lg-2 col-lg-offset-1">
-							<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
-				  		</div>
-				  		<div class="col-lg-9">
-							<blockquote>
-								<p class="landing-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<footer class="landing-quote-author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-							</blockquote>
-				  		</div>
-				  	</div>
-				  </div>
-				  <div class="container-fluid">
-				  	<div class="row">
-				  		<div class="col-lg-2 col-lg-offset-1">
-							<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
-				  		</div>
-				  		<div class="col-lg-9">
-							<blockquote>
-								<p class="landing-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<footer class="landing-quote-author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-							</blockquote>
-				  		</div>
-				  	</div>
-				  </div>
-				  <div class="container-fluid">
-				  	<div class="row">
-				  		<div class="col-lg-2 col-lg-offset-1">
-							<img src="http://placehold.it/200x200" class = 'img-responsive img-circle align-center '>
-				  		</div>
-				  		<div class="col-lg-9">
-							<blockquote>
-								<p class="landing-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<footer class="landing-quote-author">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-							</blockquote>
-				  		</div>
-				  	</div>
-				  </div>
-				</div>
+				<a href="#" class = "btn chk-syllabus-btn align-center">Revisa el syllabus aqui</a>
 			</div>
 		</div>
 	</div>
