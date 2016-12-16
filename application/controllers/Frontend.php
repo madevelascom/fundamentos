@@ -19,8 +19,33 @@ class Frontend extends CI_Controller {
 
         $data['index'] = $this->load->view('frontend/index', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
-     }
+    }
 
-    
+	public function semanas() {
+        $titulo = "Semana a Semana";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['semanas'] = $this->load->view('frontend/semanas', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
+	public function ayudantias() {
+        $titulo = "Ayudantias";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['ayudantias'] = $this->load->view('frontend/ayudantias', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }	
+	
+	public function equipo(){
+		$data = "";
+		$this->load->view('frontend/equipo.json', $data);
+	}
 
 }
