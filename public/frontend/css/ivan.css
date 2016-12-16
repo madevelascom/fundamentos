@@ -29,7 +29,7 @@
 
  .section1-title{
  	font-family: 'Muli', sans-serif;
- 	font-size: 60px;
+ 	font-size: 52px;
  	color: #01A7E5;
  	text-align: center;
  }
@@ -51,7 +51,7 @@
 }
 .section2-title{
 	font-family: 'Muli', sans-serif;
-	font-size: 60px;
+	font-size: 52px;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -87,7 +87,7 @@
  }
  .landing-section3-title{
  	font-family: 'Muli', sans-serif;
- 	font-size: 60px;
+ 	font-size: 52px;
  	color: #01A7E5;
  	text-align: center;
  }
@@ -118,7 +118,7 @@
 
 .landing-section4-title{
 	font-family: 'Muli', sans-serif;
- 	font-size: 60px;
+ 	font-size: 52px;
  	color: #5FCF80;
  	text-align: center;
 }
@@ -135,6 +135,8 @@
 	list-style-type: none;
 }
 .chk-syllabus-btn,.chk-syllabus-btn:focus{
+	width: 250px;
+	font-size: 24px;
 	background-color: #01A7E5;
 	border-color: #01A7E5;
 	color: #FFFFFF;
