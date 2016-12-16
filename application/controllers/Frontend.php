@@ -14,10 +14,13 @@ class Frontend extends CI_Controller {
         $titulo = "Fundamentos";
         $dataHeader['titlePage'] = $titulo;
 
+        $scripts = array("index.js");
+
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
-        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['menu'] = $this->load->view('frontend/menu',array()  );
 
         $data['index'] = $this->load->view('frontend/index', array() );
+
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 
