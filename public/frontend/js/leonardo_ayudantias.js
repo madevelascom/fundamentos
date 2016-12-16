@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 function buscar(){
     var url = "";
-    $.getJSON("equipo", function(resp){
+    $.getJSON("cargar_equipo", function(resp){
         var ayudantes = resp.ayudantes.TA;
         for (i = 0; i<dias.length; i++){
             var dia = dias[i];
