@@ -10,7 +10,7 @@ $( document ).ready(function() {
 			$(".list-group").append(
 			$("<a>",{"class":"list-group-item","href":"detalleejercicio.html"}).append(
 					$("<span>",{"class":"pull-right"}).append($("<strong>",{"text":"Dificultad:"}).append($("<span>",{"class":"label label-success","text":rest.ejercicios[i].nivel}).append())),
-					$("<h4>",{"class":"list-group-item-heading","text":"Ejercicio. " + rest.ejercicios[i].titulo}).append(),
+					$("<h4>",{"class":"list-group-item-heading","text":"Ejercicio: " + ""+ rest.ejercicios[i].titulo}).append(),
 					$("<div>",{"class":"list-group-item-text"}).append(
 							$("<p>",{"text":rest.ejercicios[i].descripcion}).append(),
 

@@ -12,8 +12,10 @@
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/bootstrap.min.js'); ?>"></script>
 <<<<<<< HEAD
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/israelejercicios.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('public/frontend/js/israelequipo.js'); ?>"></script>
+
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/ivan.js'); ?>"></script>
-=======
+
 
         <script src="<?php echo base_url('public/frontend/js/owl.carousel.js'); ?>"></script>
        
