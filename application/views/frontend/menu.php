@@ -13,10 +13,10 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index">Inicio <span class="sr-only">(current)</span></a></li>
-				<li><a href="semanas">Curso</a></li>
-				<li><a href="semanas">Semana a Semana</a></li>
-				<li><a href="ayudantias">Ayudantías</a></li>
+				<li class="active"><a href="web/index">Inicio <span class="sr-only">(current)</span></a></li>
+				<li><a href="web/semanas">Curso</a></li>
+				<li><a href="web/semanas">Semana a Semana</a></li>
+				<li><a href="web/ayudantias">Ayudantías</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
