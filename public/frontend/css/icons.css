@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'daw';
-  src:  url('../fonts/daw.eot?yyzpcr');
-  src:  url('../fonts/daw.eot?yyzpcr#iefix') format('embedded-opentype'),
-    url('../fonts/daw.ttf?yyzpcr') format('truetype'),
-    url('../fonts/daw.woff?yyzpcr') format('woff'),
-    url('../fonts/daw.svg?yyzpcr#daw') format('svg');
+  src:  url('../fonts/daw.eot?wv3uw3');
+  src:  url('../fonts/daw.eot?wv3uw3#iefix') format('embedded-opentype'),
+    url('../fonts/daw.ttf?wv3uw3') format('truetype'),
+    url('../fonts/daw.woff?wv3uw3') format('woff'),
+    url('../fonts/daw.svg?wv3uw3#daw') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.daw-arrow-down:before {
+  content: "\ea3e";
+}
 .daw-check:before {
   content: "\ea52";
 }

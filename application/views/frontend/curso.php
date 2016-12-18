@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                Información del curso                       
+                <h1>Información del curso</h1>                       
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
                         En este capítulo se introducirán conceptos relacionados a:
                         <ul class="no-bullet">
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-1"><h4 class="bold">Unidad 1: Introducción a la programación</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-1"><h4 class="bold">Unidad 1: Introducción a la programación <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-1" class="panel-collapse collapse index-content">
                                     <ul>
                                         <li>Interpretadores y compiladores.</li>
@@ -59,7 +59,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-2"><h4 class="bold">Unidad 2: Variables y tipos de datos</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-2"><h4 class="bold">Unidad 2: Variables y tipos de datos <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-2" class="collapse index-content">
                                     <ul>
                                         <li>Tipos de datos, operadores lógicos y relacionales.</li>
@@ -69,7 +69,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-3"><h4 class="bold">Unidad 3: Estructuras de control</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-3"><h4 class="bold">Unidad 3: Estructuras de control <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-3" class="collapse index-content">
                                     <ul>
                                         <li>Estructuras de control condicionales.</li>
@@ -79,7 +79,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-4"><h4 class="bold">Unidad 4: Listas</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-4"><h4 class="bold">Unidad 4: Listas <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-4" class="collapse index-content">
                                     <ul>
                                         <li>Listas y sus propiedades.</li>
@@ -89,7 +89,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-5"><h4 class="bold">Unidad 5: Arreglos N-Dimensionales</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-5"><h4 class="bold">Unidad 5: Arreglos N-Dimensionales <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-5" class="collapse index-content">
                                     <ul>
                                         <li>Propiedades de los arreglos.</li>
@@ -100,7 +100,7 @@
                                 </div>
                             </li> 
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-6"><h4 class="bold">Unidad 6: Funciones</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-6"><h4 class="bold">Unidad 6: Funciones <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-6" class="collapse index-content">
                                     <ul>
                                         <li>Paradigma "divide y vencerás".</li>
@@ -111,7 +111,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-7"><h4 class="bold">Unidad 7: Colecciones</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-7"><h4 class="bold">Unidad 7: Colecciones <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-7" class="collapse index-content">
                                     <ul>
                                         <li>Características de las colecciones.</li>
@@ -120,7 +120,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-8"><h4 class="bold">Unidad 8: Archivos - Entrada/Salida</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-8"><h4 class="bold">Unidad 8: Archivos - Entrada/Salida <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-8" class="collapse index-content">
                                     <ul>
                                         <li>Archivos y operaciones de entrada.</li>
@@ -129,7 +129,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#unit-9"><h4 class="bold">Unidad 9: Procesamiento de datos</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#unit-9"><h4 class="bold">Unidad 9: Procesamiento de datos <span class="daw-arrow-down"></span></h4></div>
                                 <div id="unit-9" class="collapse index-content">
                                     <ul>
                                         <li>Filtrado y agrupación de datos.</li>
@@ -143,7 +143,7 @@
                     <div role="tabpanel" class="tab-pane fade" id="politics">
                         <ul>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#prereq"><h4 class="bold">Pre-requisito</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#prereq"><h4 class="bold">Pre-requisito <span class="daw-arrow-down"></span></h4></div>
                                 <div id="prereq" class="collapse index-content">
                                     <ul>
                                         <li>Herramientas de Colaboración Digital(FIEC06460).</li>
@@ -151,7 +151,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#classes"><h4 class="bold">Clases</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#classes"><h4 class="bold">Clases <span class="daw-arrow-down"></span></h4></div>
                                 <div id="classes" class="collapse index-content">
                                     <ul>
                                         <li>La asistencia a clases es obligatoria y será controlada a través de la lista de asistencia.</li>
@@ -163,7 +163,7 @@
                                 </div>
                             </li> 
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#consult"><h4 class="bold">Consultas</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#consult"><h4 class="bold">Consultas <span class="daw-arrow-down"></span></h4></div>
                                 <div id="consult" class="collapse index-content">
                                     <ul>
                                         <li><span class="bold">Es importante que las consultas acerca de la materia y/o tareas se realicen durante la clase, a través del foro de discusión</span>, para permitir que todos conozcamos del tema y aportemos con nuestras opiniones, <span class="bold">o en horas de oficina</span>.</li>
@@ -172,7 +172,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#eval"><h4 class="bold">Evaluaciones</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#eval"><h4 class="bold">Evaluaciones <span class="daw-arrow-down"></span></h4></div>
                                 <div id="eval" class="collapse index-content">
                                     <ul>
                                         <li>Se realizarán evaluaciones continuas de acuerdo al avance del programa de estudios. <span class="bold">El profesor se reserva el derecho de admisión a SIDWEB y foro de discusión.</span></li>
@@ -223,7 +223,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#tasks"><h4 class="bold">Tareas</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#tasks"><h4 class="bold">Tareas <span class="daw-arrow-down"></span></h4></div>
                                 <div id="tasks" class="collapse index-content">
                                     <ul>
                                         <li><span class="bold">Las tareas y/o proyectos serán publicados en la página Web de la materia y recibidos por medio de esta, NO</span> se le dará nota a tareas que sean enviadas al mail del profesor.</li>
@@ -238,7 +238,7 @@
                                         <li><span class="bold">En caso de problemas con las tareas y/o proyectos, se podrá realizar la consulta respectiva en el foro de discusión.</span> Esto permitirá la colaboración de los miembros del curso para su resolución, pero no se permite la publicación de respuestas.</li>
                                         <li><span class="bold">TODA tarea debe incluir las referencias bibliográficas respectivas.</span> En el caso de código fuente, se utilizará el formato de comentarios y en el caso de investigación o tareas teóricas se utilizará el formato de citas bibliográficas.</li>
                                         <li>
-                                            <div class="btn pl-0" data-toggle="collapse" data-target="#honesty"><span class="bold">Deshonestidad Académica</span></div>
+                                            <div class="btn pl-0" data-toggle="collapse" data-target="#honesty"><span class="bold">Deshonestidad Académica <span class="daw-arrow-down"></span></span></div>
                                             <div id="honesty" class="collapse">
                                                 <ul class="no-bullet">
                                                     <li>Todo estudiante que cometa en cualquier evaluación actos de deshonestidad académica premeditada recibirá como sanción, la primera vez, por lo menos la automática reprobación de la materia correspondiente.  En caso de reincidir en los mismos actos, se le anulará la matrícula en forma definitiva en la Institución. En caso de estudiantes que incurran en actitudes deshonestas circunstanciales durante un examen o aporte el profesor impedirá la continuación del examen o aporte a dicho estudiante, el que deberá abandonar la sala correspondiéndole como sanción, por lo menos, la calificación de CERO en el examen.</li>
@@ -249,7 +249,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="btn" data-toggle="collapse" data-target="#exams"><h4 class="bold">Exámenes y Lecciones</h4></div>
+                                <div class="btn" data-toggle="collapse" data-target="#exams"><h4 class="bold">Exámenes y Lecciones <span class="daw-arrow-down"></span></h4></div>
                                 <div id="exams" class="collapse index-content">
                                     <ul>
                                         <li>Los exámenes y lecciones serán dadas en el aula de clase durante el horario especificado.</li>
