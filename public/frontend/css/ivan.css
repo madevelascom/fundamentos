@@ -1,3 +1,12 @@
+html {
+  overflow-y: scroll;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 #intro{
 
 	padding-bottom: 150px;
@@ -122,6 +131,78 @@
  	color: #5FCF80;
  	text-align: center;
 }
+
+
+/**
+ * ========================================
+ * CURSO
+ * ========================================
+ */
+
+/* ===HEADER=== */
+#curso-header{
+ 	background-color: #01A4A4;
+ 	color: #FFFFFF;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	text-align: center;
+ }
+
+/* ===BODY=== */
+ #curso-body{
+ 	font-size: 16px;
+ }
+
+/* ===SYLLABUS=== */
+#syllabus .btn, #politics .btn{
+	font-size: 16px;
+}
+
+ /* ===POLITICAS=== */
+#politics .btn{
+	font-size: 16px;
+}
+/* Estilos para cambiar el color de los tabs - BEGIN */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background-color: #01A4A4;
+	color: #FFF;
+	transition: all 0.25s;
+}
+.nav-tabs>li>a{
+	color: #01A4A4;
+	transition: all 0.25s;
+}
+.nav-tabs>li>a:hover{
+	border-color: #e6e6e6 #e6e6e6 #ddd;
+}
+/* END */
+.btn.focus, .btn:focus, .btn:hover{
+	color: #01A4A4;
+	font-weight: bold;
+}
+/* Contenedor de texto para cada indice del tab 'Politicas'*/
+.index-content{
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+/* ===HORARIOS=== */
+#schedule h4{
+	text-align: center;
+}
+#class-schedule table{
+	text-align: center;
+}
+#class-schedule table td{
+	background-color: #ffffff;
+}
+#exams-schedule table{
+	text-align: center;
+}
+#exams-schedule table td{
+	background-color: #ffffff;
+}
+
  
 /**
  * ========================================
@@ -130,9 +211,6 @@
  */
 .bold{
 	font-weight: bold;
-}
-.no-bullet{
-	list-style-type: none;
 }
 .chk-syllabus-btn,.chk-syllabus-btn:focus{
 	width: 250px;
@@ -148,3 +226,16 @@
 	color: #01A7E5;
 	transition: all 0.25s;
 }
+.no-bullet{
+	list-style-type: none;
+}
+/* Estilo para añadir un footer a una tabla */
+.table-footer{
+ 	font-style: italic;
+ 	font-size: 12px;
+}
+/* Estilo para ocultar celdas de una tabla */
+.unwanted-td{
+	visibility: hidden;
+}	
+

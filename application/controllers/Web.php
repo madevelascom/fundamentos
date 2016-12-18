@@ -21,6 +21,15 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 
+    public function curso() {
+        $titulo = "Información del Curso";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['curso'] = $this->load->view('frontend/curso', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
 	public function semanas() {
         $titulo = "Semana a Semana";
         $dataHeader['titlePage'] = $titulo;
