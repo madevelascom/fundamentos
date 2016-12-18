@@ -14,13 +14,32 @@ class Frontend extends CI_Controller {
         $titulo = "Fundamentos";
         $dataHeader['titlePage'] = $titulo;
 
+        $scripts = array("index.js");
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu',array()  );
+
+        $data['index'] = $this->load->view('frontend/index', array() );
+
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
+	public function semanas() {
+        $titulo = "Semana a Semana";
+        $dataHeader['titlePage'] = $titulo;
+
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
 
-        $data['index'] = $this->load->view('frontend/index', array() );
+        $data['semanas'] = $this->load->view('frontend/semanas', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
-     }
+    }
 
+	public function ayudantias() {
+        $titulo = "Ayudantias";
+        $dataHeader['titlePage'] = $titulo;
+
+<<<<<<< HEAD
      public function listaDeEjercicios() {
         $titulo = "Ejercicios";
         $dataHeader['titlePage'] = $titulo;
@@ -37,5 +56,18 @@ class Frontend extends CI_Controller {
         $this->load->view('frontend/ejercicios.json', $data);
     }
 
+=======
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['ayudantias'] = $this->load->view('frontend/ayudantias', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }	
+	
+	public function cargar_equipo(){
+		$data = "";
+		$this->load->view('frontend/equipo.json', $data);
+	}
+>>>>>>> 04e0f21fe4781c7aa26d62932cbaed9154299067
 
 }
