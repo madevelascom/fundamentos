@@ -1,4 +1,4 @@
-<header id="curso-header" class="mt-lg-50">
+<header id="curso-header" class="mt-xs-50 mt-md-50 mt-lg-50">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -10,17 +10,17 @@
 <section id="curso-body">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 curso-desc">
                 El curso presenta a los estudiantes estrategias para resolver problemas comunes en diversas profesiones por medio del diseño e implementación de soluciones basadas en el uso de un lenguaje de programación. Cubre los principios básicos para que el estudiante pueda leer y escribir programas; haciendo énfasis en el diseño y análisis de algoritmos. Además, introduce a los estudiantes en el uso de herramientas de desarrollo y depuración.
             </div>
         </div>
-        <div class="row mt-lg-20">
+        <div class="row mt-xs-20 mt-md-20 mt-lg-20">
             <div class="col-lg-10 col-lg-offset-1 well">
                 <!-- Tabs -->
                  <ul class="nav nav-tabs" role="tablist">
                    <li role="presentation" class="active"><a href="#obj" aria-controls="obj" role="tab" data-toggle="tab">Objetivos</a></li>
                    <li role="presentation"><a href="#syllabus" aria-controls="syllabus" role="tab" data-toggle="tab">Syllabus</a></li>
-                   <li role="presentation"><a href="#politics" aria-controls="politics" role="tab" data-toggle="tab">Políticas</a></li>
+                   <li role="presentation"><a href="#policies" aria-controls="policies" role="tab" data-toggle="tab">Políticas</a></li>
                    <li role="presentation"><a href="#schedule" aria-controls="schedule" role="tab" data-toggle="tab">Horarios</a></li>
                  </ul>
                  <!-- Paneles -->
@@ -140,7 +140,7 @@
                             </li> 
                         </ul>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="politics">
+                    <div role="tabpanel" class="tab-pane fade" id="policies">
                         <ul>
                             <li>
                                 <div class="btn" data-toggle="collapse" data-target="#prereq"><h4 class="bold">Pre-requisito <span class="daw-arrow-down"></span></h4></div>
