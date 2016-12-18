@@ -39,7 +39,12 @@ class Frontend extends CI_Controller {
         $titulo = "Ayudantias";
         $dataHeader['titlePage'] = $titulo;
 
-<<<<<<< HEAD
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['ayudantias'] = $this->load->view('frontend/ayudantias', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );		
+	}
      public function listaDeEjercicios() {
         $titulo = "Ejercicios";
         $dataHeader['titlePage'] = $titulo;
@@ -56,18 +61,12 @@ class Frontend extends CI_Controller {
         $this->load->view('frontend/ejercicios.json', $data);
     }
 
-=======
-        $data['header'] = $this->load->view('frontend/header', $dataHeader);
-        $data['menu'] = $this->load->view('frontend/menu', array() );
 
-        $data['ayudantias'] = $this->load->view('frontend/ayudantias', array() );
-        $data['footer'] = $this->load->view('frontend/footer', array() );
-    }	
 	
 	public function cargar_equipo(){
 		$data = "";
 		$this->load->view('frontend/equipo.json', $data);
 	}
->>>>>>> 04e0f21fe4781c7aa26d62932cbaed9154299067
+
 
 }
