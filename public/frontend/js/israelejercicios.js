@@ -1,11 +1,16 @@
 $( document ).ready(function() {
 
+	if ($("#practicar").length){
+		load_ejercicio();
+	};
+
+});
+
+function load_ejercicio(){
 	$.getJSON( 'cargar_listaDeEjercicios', function(rest) {
-		console.log(rest);
-		console.log(rest.ejercicios[0].nivel);
-		
 
 		for (var i in rest.ejercicios) {
+<<<<<<< HEAD
 			
 			$(".list-group").append(
 			$("<a>",{"class":"list-group-item","href":"detalleejercicio.html"}).append(
@@ -13,18 +18,38 @@ $( document ).ready(function() {
 					$("<h4>",{"class":"list-group-item-heading","text":"Ejercicio: " + ""+ rest.ejercicios[i].titulo}).append(),
 					$("<div>",{"class":"list-group-item-text"}).append(
 							$("<p>",{"text":rest.ejercicios[i].descripcion}).append(),
+=======
+>>>>>>> ba9f8ca87897c42884dc45769ddfb3ecb8353000
 
-							$("<span>",{"class":"label label-info","style":"margin-right: 0.5%","text":"#" + rest.ejercicios[i].etiquetas[0].etiqueta1}).append(),
-							$("<span>",{"class":"label label-primary","text":"#" + rest.ejercicios[i].etiquetas[1].etiqueta1}).append(),
+			$(".list-group").append(
+				$("<div>",{"class":"list-group-item mb-15"}).append(
+					$("<div>", {"class": "row"}).append(
+						$("<div>", {"class": "col-md-10"}).append(
+							$("<h4>",{"class":"list-group-item-heading tit-list-eje","text":rest.ejercicios[i].titulo}).append(),
+							$("<div>",{"class":"list-group-item-text pb-5"}).append(
+								$("<span>",{"text":"Dificultad: "+rest.ejercicios[i].nivel }).append(),
+								$("<span>",{"class":"pl-20", "text":"Veces Resuelto: "+rest.ejercicios[i].resuelto}).append()
+												
+								)
+						),
+						$("<div>", {"class": "col-md-2 solve-col"}).append(
+							$("<button>",{"class":"btn btn-default diff-btn solve-btn", "href":"ejercicio", "text":"Resolver"})
+							)
+						
+						
+					),
+					$("<div>", {"class": "row"}).append(
+						$("<div>", {"class": "col-md-10"}).append(
+							$("<span>",{"class":"label label-default","text":rest.ejercicios[i].etiquetas[0].etiqueta1}).append(),
+								$("<span>",{"class":"label label-default","text":rest.ejercicios[i].etiquetas[1].etiqueta1}).append()	),
+						$("<div>", {"class": "col-md-2"}).append(
+						
+							)
+						)
 
-							$("<span>",{"class":"pull-right"}).append(
-									$("<strong>",{"text":"Veces Resuelto: "}).append(rest.ejercicios[i].resuelto)
-								)	
 					)
+
 				)
-				
-			);
 		}
 	});
-
-});
+}
