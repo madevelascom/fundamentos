@@ -4,21 +4,18 @@
 		"descripcion": "Sumar dígitos que ingrese el usuario",
 		"texto":"Muestre por pantalla la suma de los dígitos de un número que ingrese previamente el usuario.",
 		"autor": "Leonardo Kuffo",
-<<<<<<< HEAD
 		"inputsFormato": "Ingrese uno numero de N cifras, por ejemplo: 8, 56, 678, 4567, 67894",
 		"outputFormato": "El resultado de la suma sera un numero entero",
 		"constantes": "",
 		"ejemploEntrada": "A.) 46  B.)234",
 		"ejemploSalida" : "A.) 10  B.)9",
 		"nivel": 1,
-=======
 		"inputsFormato": "hola",
 		"outputFormato": "como",
 		"constantes": "estas",
 		"ejemploEntrada": "soy",
 		"ejemploSalida" : "israel",
 		"nivel": "Fácil",
->>>>>>> ba9f8ca87897c42884dc45769ddfb3ecb8353000
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"suma"},{"etiqueta1":"digitos"},{"etiqueta1":"primos"}]
 	},{
@@ -29,17 +26,14 @@
 		"inputsFormato": "Ingrese el numero n de lanzamientos del dado",
 		"outputFormato":"Se muestra el numero correspondiente a la cara del dado y cuanto gano",
 		"constantes":"",
-<<<<<<< HEAD
 		"ejemploEntrada":"N = 2 lanzamientos",
 		"ejemploSalida" :"Cara: 6 Gano 5 dolares",
 		"nivel": 2,
 		"resuelto": 4,
-=======
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
 		"nivel": "Fácil",
 		"resuelto": 3,
->>>>>>> ba9f8ca87897c42884dc45769ddfb3ecb8353000
 		"etiquetas": [{"etiqueta1":"simulacion"},{"etiqueta1":"dado"}]
 	},{
 		"titulo": "El Mayor Número",

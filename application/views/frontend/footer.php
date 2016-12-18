@@ -10,16 +10,9 @@
 		</footer>
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/jquery.min.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/bootstrap.min.js'); ?>"></script>
-<<<<<<< HEAD
-<<<<<<< HEAD
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/israelejercicios.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/israelequipo.js'); ?>"></script>
-
         <script type="text/javascript" src="<?php echo base_url('public/frontend/js/ivan.js'); ?>"></script>
-
-
-=======
->>>>>>> ba9f8ca87897c42884dc45769ddfb3ecb8353000
         <script src="<?php echo base_url('public/frontend/js/owl.carousel.js'); ?>"></script>
         <script src="<?php echo base_url('public/frontend/js/jquery.smartscroll.js'); ?>"></script>
 

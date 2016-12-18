@@ -10,16 +10,6 @@ function load_ejercicio(){
 	$.getJSON( 'cargar_listaDeEjercicios', function(rest) {
 
 		for (var i in rest.ejercicios) {
-<<<<<<< HEAD
-			
-			$(".list-group").append(
-			$("<a>",{"class":"list-group-item","href":"detalleejercicio.html"}).append(
-					$("<span>",{"class":"pull-right"}).append($("<strong>",{"text":"Dificultad:"}).append($("<span>",{"class":"label label-success","text":rest.ejercicios[i].nivel}).append())),
-					$("<h4>",{"class":"list-group-item-heading","text":"Ejercicio: " + ""+ rest.ejercicios[i].titulo}).append(),
-					$("<div>",{"class":"list-group-item-text"}).append(
-							$("<p>",{"text":rest.ejercicios[i].descripcion}).append(),
-=======
->>>>>>> ba9f8ca87897c42884dc45769ddfb3ecb8353000
 
 			$(".list-group").append(
 				$("<div>",{"class":"list-group-item mb-15"}).append(

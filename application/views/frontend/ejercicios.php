@@ -1,6 +1,5 @@
 
 
-<<<<<<< HEAD
 				<!-- <a href="#" class="list-group-item">
 					<span class="pull-right"><strong>Dificultad:</strong><span class="label label-danger">9</span></span>
 					<h4 class="list-group-item-heading">Ejercicio 5. Reverse Words</h4>
@@ -12,7 +11,6 @@
 						<span class="pull-right"><strong>Veces Resuelto:</strong>10</span>
 					</div>
 				</a> -->
-=======
 <div class="container pt-70" id = 'practicar'>
 	<h1 class="align-center">Ejercicios para practicar</h1>  
 	<div class = 'row pt-20'>
@@ -27,7 +25,6 @@
 				<div class="btn-group" role="group">
 					<button type="button" class="btn btn-default diff-btn">Difícil</button>
 				</div>
->>>>>>> ba9f8ca87897c42884dc45769ddfb3ecb8353000
 			</div>
 		</div>
 	</div>
