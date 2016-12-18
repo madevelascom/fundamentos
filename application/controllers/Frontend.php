@@ -21,6 +21,21 @@ class Frontend extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
-    
+     public function listaDeEjercicios() {
+        $titulo = "Ejercicios";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['ejercicios'] = $this->load->view('frontend/ejercicios', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+     }
+
+    public function cargar_listaDeEjercicios(){
+        $data = "";
+        $this->load->view('frontend/ejercicios.json', $data);
+    }
+
 
 }
