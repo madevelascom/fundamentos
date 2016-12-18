@@ -41,8 +41,6 @@ function anim(element, text) {
 		setTimeout(function() {
 			anim(element, text);
 		}, 100);
-	}else{
-		pass;
 	}
 }
 /* Animacion del texto */

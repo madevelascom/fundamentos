@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Frontend extends CI_Controller {
+class Web extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -13,9 +13,6 @@ class Frontend extends CI_Controller {
      public function index() {
         $titulo = "Fundamentos";
         $dataHeader['titlePage'] = $titulo;
-
-        $scripts = array("index.js");
-
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu',array()  );
 
@@ -27,10 +24,8 @@ class Frontend extends CI_Controller {
 	public function semanas() {
         $titulo = "Semana a Semana";
         $dataHeader['titlePage'] = $titulo;
-
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
-
         $data['semanas'] = $this->load->view('frontend/semanas', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
@@ -45,7 +40,7 @@ class Frontend extends CI_Controller {
         $data['ayudantias'] = $this->load->view('frontend/ayudantias', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );		
 	}
-     public function listaDeEjercicios() {
+     public function practicar() {
         $titulo = "Ejercicios";
         $dataHeader['titlePage'] = $titulo;
 
@@ -61,8 +56,6 @@ class Frontend extends CI_Controller {
         $this->load->view('frontend/ejercicios.json', $data);
     }
 
-
-	
 	public function cargar_equipo(){
 		$data = "";
 		$this->load->view('frontend/equipo.json', $data);

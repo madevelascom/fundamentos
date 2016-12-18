@@ -1,7 +1,7 @@
 {
 	"ejercicios": [{
-		"titulo": "Sumar Digitos",
-		"descripcion": "Sumar Digitos que ingrese el usuario",
+		"titulo": "Sumar Dígitos",
+		"descripcion": "Sumar dígitos que ingrese el usuario",
 		"texto":"Muestre por pantalla la suma de los dígitos de un número que ingrese previamente el usuario.",
 		"autor": "Leonardo Kuffo",
 		"inputsFormato": "hola",
@@ -9,11 +9,11 @@
 		"constantes": "estas",
 		"ejemploEntrada": "soy",
 		"ejemploSalida" : "israel",
-		"nivel": 1,
+		"nivel": "Fácil",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"suma"},{"etiqueta1":"digitos"},{"etiqueta1":"primos"}]
 	},{
-		"titulo": "Lanzaminetos de un Dado",
+		"titulo": "Lanzamientos de un Dado",
 		"descripcion": "Realice una simulación de n intentos de lanzamientos de un dado",
 		"texto":"Realice una simulación de n intentos de lanzamientos de un dado con las siguientes reglas: si sale 6 gana $5. Si sale 1 gana $1. Si sale 2, 3, 4 o 5 pierde $2. Determine la cantidad acumulada al final del juego.",
 		"autor": "Leonardo Kuffo",
@@ -22,12 +22,12 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 1,
+		"nivel": "Fácil",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"simulacion"},{"etiqueta1":"dado"}]
 	},{
-		"titulo": "El Mayor Numero",
-		"descripcion": "Desterminar el mayor numero ingresado y el promedio",
+		"titulo": "El Mayor Número",
+		"descripcion": "Determinar el mayor numero ingresado y el promedio",
 		"texto":"Pedirle 10 números al usuario y determinar el mayor número que el usuario haya ingresado y el promedio de los 10 valores.",
 		"autor": "Leonardo Kuffo",
 		"inputsFormato": "",
@@ -35,7 +35,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 1,
+		"nivel": "Fácil",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"mayorNumero"},{"etiqueta1":"promedio"},{"etiqueta1":"10valores"}]
 	},{
@@ -48,7 +48,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 1,
+		"nivel": "Fácil",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"menorNumero"},{"etiqueta1":"juego"},{"etiqueta1":"infinitosIntentos"}]
 	},{
@@ -61,7 +61,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 4,
+		"nivel": "Medio",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"aleatorio"},{"etiqueta1":"unaCifra"},{"etiqueta1":"sumarDigitos"}]
 	},{
@@ -74,7 +74,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 4,
+		"nivel": "Medio",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"numeroPerfecto"},{"etiqueta1":"divisores"},{"etiqueta1":"sumarDivisores"}]
 	},{
@@ -87,7 +87,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 6,
+		"nivel": "Medio",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"palíndromo"},{"etiqueta1":"palabra"}]
 	},{
@@ -100,7 +100,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 5,
+		"nivel": "Medio",
 		"resuelto": 1,
 		"etiquetas": [{"etiqueta1":"lista"},{"etiqueta1":"retornePosición"},{"etiqueta1":"cuantasVeces"}]
 	},{
@@ -112,7 +112,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 6,
+		"nivel": "Medio",
 		"resuelto": 0,
 		"etiquetas": [{"etiqueta1":"lista"},{"etiqueta1":"máximo"},{"etiqueta1":"mínimo"}]
 	},{
@@ -124,7 +124,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 4,
+		"nivel": "Medio",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"listas"},{"etiqueta1":"consecutivos"}]
 	},{
@@ -136,7 +136,7 @@
 		"constantes":"",
 		"ejemploEntrada":"",
 		"ejemploSalida" :"",
-		"nivel": 4,
+		"nivel": "Medio",
 		"resuelto": 3,
 		"etiquetas": [{"etiqueta1":"Numpy"},{"etiqueta1":"matriz"}]
 	}]	
