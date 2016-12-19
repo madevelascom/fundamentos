@@ -20,6 +20,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/made.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/ivan.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/icons.css'); ?>" >
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/tabs_leonardo.css'); ?>" >
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
         <!-- Important Owl stylesheet -->

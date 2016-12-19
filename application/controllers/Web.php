@@ -97,7 +97,19 @@ class Web extends CI_Controller {
 
         $data['ejercicio'] = $this->load->view('frontend/ejercicio', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
-     }
+    }
+	
+	public function sandboxProfesor(){
+        $titulo = "SandBox - Profesor";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['sandboxprofesor'] = $this->load->view('frontend/sandboxprofesor', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );		
+		
+	}
 
     public function cargar_listaDeEjercicios(){
         $data = "";
