@@ -8,7 +8,7 @@
 	</ul>
 
 	<div id="ver_ejercicios" class="tabcontent">
-		<div class="container pt-70" id='practicar'> 
+		<div class="container pt-70" id='practicar1'> 
 
 			<ul class="pagination">
 			</ul>

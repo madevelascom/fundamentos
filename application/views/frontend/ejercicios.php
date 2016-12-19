@@ -11,10 +11,11 @@
 						<span class="pull-right"><strong>Veces Resuelto:</strong>10</span>
 					</div>
 				</a> -->
-<div class="container pt-70" id = 'practicar'>
+<div class="container pt-70" id = "practice">
 	<h1 class="align-center">Ejercicios para practicar</h1>  
 	<div class = 'row pt-20'>
 		<div class = 'col-md-3 col-xs-12'>
+			<!--
 			<div class="btn-group btn-group-justified" role="group">
 				<div class="btn-group" role="group">
 					<button type="button" class="btn btn-default diff-btn">Fácil</button>
@@ -26,6 +27,7 @@
 					<button type="button" class="btn btn-default diff-btn">Difícil</button>
 				</div>
 			</div>
+			-->
 		</div>
 	</div>
 	

@@ -41,8 +41,8 @@ function pagination(evt, page) {
 }
 
 $( document ).ready(function() {
-    if ($("#practicar").length){
-        load_ejercicio();
+    if ($("#practicar1").length){
+        load_ejercicios();
         load_edicion();
     };
 });
@@ -86,7 +86,7 @@ function crear_ejercicio(){
 
 
 
-function load_ejercicio(){
+function load_ejercicios(){
     j = 0
     $.getJSON('cargar_listaDeEjercicios', function(rest) {
         for (var i in rest.ejercicios) {

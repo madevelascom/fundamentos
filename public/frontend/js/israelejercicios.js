@@ -1,6 +1,6 @@
-$( document ).ready(function() {
+$(window).load(function() {
 
-	if ($("#practicar").length){
+	if ($("#practice").length){
 		load_ejercicio();
 	};
 	
