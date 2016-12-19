@@ -4,10 +4,6 @@ section{
     padding-top: 50px;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
-}
-
 nav{
     background-color: #333333 !important;
 }
@@ -68,7 +64,7 @@ nav{
 
 /*Pagina de ayudantias */
 
-#ayudantias label, #semamas label, #ayudantias h1, #semanas h1 {
+#ayudantias label, h1 {
     font-family: 'Muli', sans-serif;
 }
 
@@ -109,14 +105,14 @@ footer{
     font-size: 20px;
 }
 
-.diff-btn,.diff-btn:focus{
+.diff-btn{
     background-color: #01A4A4;
     border-color: #01A4A4;
     color: #FFFFFF;
     transition: all 0.25s;
     width: 100%;
 }
-.diff-btn:hover,.diff-btn:disabled{
+.diff-btn:hover, .diff-btn:active{
     background-color: #FFFFFF;
     border-color: #01A4A4;
     color: #01A4A4;
@@ -133,4 +129,41 @@ footer{
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 5px;
+}
+
+/*Equipo*/
+
+.equipo-foto{
+    height: 150px;
+    width: 150px;
+}
+
+.detalleProfesor {
+    float: left;
+    display: inline-block;
+}
+.imagenProfesor {
+    float: left;
+    margin-right: 15px;
+}
+
+.clr-light-blue{
+    color: #01A7E5;
+}
+
+/*Curso tabs*/
+.curso-tabs{
+    border-radius: solid;
+    border-color: #01A4A4;
+}
+
+#footer{
+    position: relative;
+    bottom:0;
+}
+
+
+/*Menu*/
+.navbar-collapse.collapse.in{
+    background-color: #333333;
 }

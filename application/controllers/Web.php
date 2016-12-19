@@ -60,13 +60,12 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
-     public function equipoProfesores() {
+     public function equipo() {
         $titulo = "Profesores";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
-
         $data['equipo'] = $this->load->view('frontend/equipo', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
