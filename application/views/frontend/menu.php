@@ -18,7 +18,7 @@
 				<li><a href="<?php echo site_url("web/semanas"); ?>">Semana a Semana</a></li>
 				<li><a href="<?php echo site_url("web/equipo"); ?>">Equipo</a></li>
 				<li><a href="<?php echo site_url("web/ayudantias"); ?>">Ayudantías</a></li>
-				<li><a href="<?php echo site_url("web/proyectos"); ?>">Proyectos</a></li>
+				
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
@@ -26,7 +26,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="#">Perfil</a></li>
 						<li><a href="<?php echo site_url("web/practicar"); ?>">Ejercicios</a></li>
-						<li><a href="#">Something else here</a></li>
+						<li><a href="<?php echo site_url("web/proyectos"); ?>">Proyectos</a></li>
 						<li role="separator" class="divider"></li>
 						<li><a href="#">Cerrar sesión</a></li>
 					</ul>
@@ -49,16 +49,16 @@
 								<div class="col-md-12">
 									<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
 										<div class="form-group">
-											<label class="sr-only" for="exampleInputEmail2">Dirección de correo</label>
-											<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Correo ESPOL" required>
+											<label class="sr-only" for="loginEmail">Dirección de correo</label>
+											<input type="email" class="form-control" id="loginEmail" placeholder="Correo ESPOL" required>
 										</div>
 										<div class="form-group">
-											<label class="sr-only" for="exampleInputPassword2">Contraseña</label>
-											<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Contraseña" required>
+											<label class="sr-only" for="loginPassword">Contraseña</label>
+											<input type="password" class="form-control" id="loginPassword" placeholder="Contraseña" required>
 											<div class="help-block text-right"><a href="http://www.serviciosti.espol.edu.ec/ui/es/content/cta_elec/restablecer.aspx">¿Olvidaste la contraseña?</a></div>
 										</div>
 										<div class="form-group">
-											<button type="submit" class="btn btn-primary btn-block">Entrar</button>
+											<button class="btn btn-primary btn-block" id = "menulogin">Entrar</button>
 										</div>
 										<div class="checkbox">
 											<label>

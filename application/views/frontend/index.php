@@ -37,7 +37,7 @@
 				</h2>
 			</div>
 		</div>
-		<div class="row mt-lg-40">
+		<div class="row mt-md-20">
 			<div class="col-lg-12">
 				<div class="container-fluid">
 					<div class="row">
