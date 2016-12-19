@@ -3,6 +3,7 @@ $( document ).ready(function() {
 	if ($("#practicar").length){
 		load_ejercicio();
 	};
+	
 
 });
 
@@ -23,7 +24,7 @@ function load_ejercicio(){
 								)
 						),
 						$("<div>", {"class": "col-md-2 solve-col"}).append(
-							$("<button>",{"class":"btn btn-default diff-btn solve-btn", "href":"ejercicio", "text":"Resolver"})
+							$("<button>",{"class":"btn btn-default diff-btn solve-btn", "href":'<?php echo site_url("web/ejercicioDetalle");?>', "text":"Resolver"})
 							)
 						
 						

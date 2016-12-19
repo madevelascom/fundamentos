@@ -70,6 +70,17 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
+     public function ejercicioDetalle() {
+        $titulo = "Ejercicio";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['ejercicio'] = $this->load->view('frontend/ejercicio', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+     }
+
     public function cargar_listaDeEjercicios(){
         $data = "";
         $this->load->view('frontend/ejercicios.json', $data);
