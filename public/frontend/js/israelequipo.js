@@ -1,78 +1,52 @@
 $( document ).ready(function() {
-    
-   $.getJSON("cargar_equipo",function(data) {
-   		//console.log(data);
-   		$(".containerCoordinador").append(
-   				$("<div>",{"class":"container"}).append(
-                     $("<div>").append(
-                      //  $("<div>",{"class":"imagenCordinador"}).append(
-                              $("<img>",{"src":data.coordinador.foto,"class":"img-responsive","alt":data.coordinador.nombre})
-                      //  )
-                        ,
-                       // $("<div>",{"clas":"detalleCoordinador"}).append(
-                              $("<p>",{"text":data.coordinador.nombre}),
-                              $("<p>",{"text":data.coordinador.titulo}),
-                              $("<a>",{"text":data.coordinador.mail, "href":"mailto:#"}),
-                              $("<p>",{"text":"Teléf. : " + data.coordinador.telefono})
-                         //  )
-                        
-                     )
-                  )
-   			)
+
+	$.getJSON("cargar_equipo",function(data) {
+
+		$(".containerCoordinador").append(
+			$("<div>",{"class":"panel-body"}).append(
+				$("<div>", {"class": "imagenProfesor"}).append(
+					$("<img>",{"class":"equipo-foto","src":data.coordinador.foto,"alt":data.coordinador.nombre})),
+				$("<div>",{"class":"detalleProfesor"}).append(
+					$("<h3>",{"class":"clr-light-blue","text":data.coordinador.nombre}),
+					$("<a>",{"text":data.coordinador.mail, "href":"mailto:"+data.coordinador.mail})
+					)
+				)
+			)
 
 
-         ///PROFESORES
-         var $flag1 = 0;
 
-   		for(var i in data.profesores) {
-   			//console.log(data.profesores[i].nombre);
-            
-           /* var $count = 0;
-            var $x;
-            var $filaQexiste = $(".row");
-            var $NewFila = $("#Profesores").append(
-                     $("<div>",{"class":"row"}) );*/
+///PROFESORES
+var $flag1 = 0;
 
-               $("#Profesores").append(
-   			//$(".row").append(
-                 // $("<div>",{"class":"row"}).append(
-                           //$("<div>",{"class":"col-sm-4 col-md-3"}).append(
-                              $("<div>", {"class":"panel panel-default"}).append(
-                              $("<div>",{"class":"panel-body"}).append(
-                                   $("<div>",{"class":"imagenProfesor"}).append(
-                                       $("<img>",{"class":"img-responsive","class":"centradox","src":data.profesores[i].foto,"alt":data.coordinador.nombre})
-                                    ),
-                                    $("<div>",{"class":"detalleProfesor"}).append(
-                                       $("<h3>",{"text":data.profesores[i].nombre}),
-                                       $("<h5>",{"text":data.profesores[i].titulo}),
-                                       $("<a>",{"text":data.profesores[i].mail, "href":"mailto:#"}),
-                                       $("<p>",{"text":"Teléf. : " +data.profesores[i].telefono})
-                                    )
-                              )
-                           )
-                        //)
+for(var i in data.profesores) {
 
+	$("#Profesores").append(
+		$("<div>", {"class": "col-md-6 col-xs-12 pb-15 pl-0"}).append(
+			$("<div>",{"class":"imagenProfesor"}).append(
+				$("<img>",{"class":"equipo-foto","src":data.profesores[i].foto,"alt":data.profesores[i].nombre})),
+			$("<div>",{"class":"detalleProfesor"}).append(
+				$("<h3>",{"class":"clr-light-blue", "text":data.profesores[i].nombre}),
+				$("<a>",{"text":data.profesores[i].mail, "href":"mailto:"+data.profesores[i].mail})
+				)
+			)
+		)
 
-                    // )
-   			//	)  
+}
+///AYUDANTES
 
-            )   
-   		}
-         ///AYUDANTES
+for(var i in data.ayudantes.TA) {
+	$("#Ayudantes").append(
+		$("<div>",{"class":"col-xs-12 col-sm-3 col-md-3"}).append(
+			$("<div>", {"class":"panel panel-default"}).append(
+				$("<div>",{"class":"panel-body"}).append(
+					$("<h4>",{"text":data.ayudantes.TA[i].nombre}),
+					$("<a>",{"text":data.ayudantes.TA[i].correo,"href":"mailto:"+data.ayudantes.TA[i].correo})           
+					)
+				)  
+			)     
+		)     
+}
 
-         for(var i in data.ayudantes.TA) {
-            $("#Ayudantes").append(
-               $("<div>",{"class":"col-xs-12 col-sm-3 col-md-3"}).append(
-                  $("<div>", {"class":"panel panel-default"}).append(
-                     $("<div>",{"class":"panel-body"}).append(
-                        $("<h4>",{"text":data.ayudantes.TA[i].nombre}),
-                        $("<a>",{"text":data.ayudantes.TA[i].correo,"href":"mailto:#"})           
-                        )
-                     )  
-                  )     
-               )     
-         }
+});
 
-   });
-   		
 });

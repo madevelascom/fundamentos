@@ -13,13 +13,24 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="<?php echo site_url("web/index"); ?>">Inicio <span class="sr-only">(current)</span></a></li>
+				<li><a href="<?php echo site_url("web/index"); ?>">Inicio <span class="sr-only">(current)</span></a></li>
 				<li><a href="<?php echo site_url("web/curso"); ?>">Curso</a></li>
 				<li><a href="<?php echo site_url("web/semanas"); ?>">Semana a Semana</a></li>
+				<li><a href="<?php echo site_url("web/equipo"); ?>">Equipo</a></li>
 				<li><a href="<?php echo site_url("web/ayudantias"); ?>">Ayudantías</a></li>
 				<li><a href="<?php echo site_url("web/proyectos"); ?>">Proyectos</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marcos Calderón <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Perfil</a></li>
+						<li><a href="<?php echo site_url("web/practicar"); ?>">Ejercicios</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Cerrar sesión</a></li>
+					</ul>
+				</li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Made Velasco <span class="caret"></span></a>
 					<ul class="dropdown-menu">

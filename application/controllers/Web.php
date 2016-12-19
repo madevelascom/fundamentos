@@ -49,7 +49,7 @@ class Web extends CI_Controller {
         $data['ayudantias'] = $this->load->view('frontend/ayudantias', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );		
 	}
-     public function practicar() {
+    public function practicar() {
         $titulo = "Ejercicios";
         $dataHeader['titlePage'] = $titulo;
 
@@ -60,18 +60,17 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
-     public function equipoProfesores() {
+    public function equipo() {
         $titulo = "Profesores";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
-
         $data['equipo'] = $this->load->view('frontend/equipo', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
-     public function proyectos() {
+    public function proyectos() {
         $titulo = "Proyectos";
         $dataHeader['titlePage'] = $titulo;
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
@@ -79,6 +78,17 @@ class Web extends CI_Controller {
         $data['proyectos'] = $this->load->view('frontend/proyectos', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
+
+    public function ejercicioDetalle() {
+        $titulo = "Ejercicio";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['ejercicio'] = $this->load->view('frontend/ejercicio', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+     }
 
     public function cargar_listaDeEjercicios(){
         $data = "";

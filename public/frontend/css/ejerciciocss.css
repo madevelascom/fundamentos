@@ -1,0 +1,23 @@
+.problemaText, .formatoEntrada, .output-format , .row {
+    		padding: 1%;
+    	}
+
+    	#panelIde {
+    		background-color: black;
+    	}
+    	.ideliterales {
+    		color: green;
+    	}
+    	#panelsalida {
+    		background-color: rgb(192, 220, 221);
+    	}
+    	#panelentrada {
+    		background-color: rgb(192, 220, 221);
+
+    	}
+    	.subtitulos {
+    		color: rgb(1, 169, 177);
+    	}
+    	.israel {
+    		display: none;
+    	}
