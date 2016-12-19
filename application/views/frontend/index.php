@@ -3,6 +3,7 @@
 		<div class="row">
 			<div class = 'container '>
 				<div class = 'row pt-lg-150 pt-sm-30'>
+
 					<div class="col-lg-12 col-xs-12">
 						<h1 class="header-title ttl-rsp">
 							<span id="typo"></span><span id="cursor">|</span>

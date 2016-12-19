@@ -153,16 +153,18 @@ html, body {
 	font-size: 16px;
 }
 /* Estilos para cambiar el color de los tabs - BEGIN */
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+#curso-body .nav-tabs>li.active>a,
+#curso-body .nav-tabs>li.active>a:focus,
+#curso-body .nav-tabs>li.active>a:hover{
 	background-color: #01A4A4;
 	color: #FFF;
 	transition: all 0.25s;
 }
-.nav-tabs>li>a{
+#curso-body .nav-tabs>li>a{
 	color: #01A4A4;
 	transition: all 0.25s;
 }
-.nav-tabs>li>a:hover{
+#curso-body .nav-tabs>li>a:hover{
 	border-color: #e6e6e6 #e6e6e6 #ddd;
 }
 /* END */
@@ -191,6 +193,41 @@ html, body {
 }
 #exams-schedule table td{
 	background-color: #ffffff;
+}
+
+/**
+ * ========================================
+ * PROYECTOS
+ * ========================================
+ */
+
+/* ===HEADER=== */
+#proyectos-header{
+	text-align: center;
+}
+/* ===SIDE-BAR=== */
+/* Estilos para cambiar el color de los tabs - BEGIN */
+#proyectos-side-bar .nav>li.active>a,
+#proyectos-side-bar .nav>li.active>a:focus,
+#proyectos-side-bar .nav>li.active>a:hover{
+	background-color: #01A4A4;
+	color: #FFF;
+	transition: all 0.25s;
+}
+#proyectos-side-bar .nav>li>a{
+	color: #01A4A4;
+	transition: all 0.25s;
+}
+#proyectos-side-bar .nav>li>a:hover{
+	color: #fff;
+	background-color: rgba(1, 164, 164, 0.5);
+	border-color: #e6e6e6 #e6e6e6 #ddd;
+}
+/* END */
+/* ===BODY=== */
+.project-panel{
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
  
@@ -227,6 +264,11 @@ html, body {
 /* Estilo para ocultar celdas de una tabla */
 .unwanted-td{
 	visibility: hidden;
+}
+.side-bar{
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
 }	
 
 @media(max-width: 767px){
