@@ -19,7 +19,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 1/01 - Introduccion.pptx" download> Diapositivas: Introduccion </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 1/01 - Introduccion.pptx'); ?>" download> Diapositivas: Introduccion </a> 
 						</div>             
 					</div>                
 					<hr> 
@@ -37,7 +37,7 @@
 							<img src="https://freeiconshop.com/files/edd/book-flat.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 1/texto.pdf" download> Libro: Programacion en Python - Jorge Rodriguez </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 1/texto.pdf'); ?>" download> Libro: Programacion en Python - Jorge Rodriguez </a>
 						</div>                    
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 1/02 - Datos_Variables_Operadores.pdf" download> Diapositivas: Variables y Tipos de Datos </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 1/02 - Datos_Variables_Operadores.pdf'); ?>" download> Diapositivas: Variables y Tipos de Datos </a> 
 						</div>             
 					</div>   
 					<hr>             
@@ -67,7 +67,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 2/03 - Manejo de texto.pdf" download> Diapositivas: Manejo de Texto </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 2/03 - Manejo de texto.pdf'); ?> download> Diapositivas: Manejo de Texto </a> 
 						</div>
 					</div>             
 					<hr>             
@@ -76,7 +76,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 2/deber01.pdf" download> Taller: Tipos de Datos y Manejo de Texto </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 2/deber01.pdf'); ?>" download> Taller: Tipos de Datos y Manejo de Texto </a> 
 						</div>
 					</div>    
 					<hr> 
@@ -106,7 +106,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 2/04 - Condicionales.pdf" download> Diapositivas: Condicionales </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 2/04 - Condicionales.pdf'); ?>" download> Diapositivas: Condicionales </a> 
 						</div>             
 					</div>   
 					<hr>             
@@ -115,7 +115,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 3/05 - Lazos.pdf" download> Diapositivas: Lazos </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 3/05 - Lazos.pdf');?> download> Diapositivas: Lazos </a> 
 						</div>
 					</div>             
 					<hr>             
@@ -124,7 +124,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 2/Ejercicios - Variables y tipos de datos y Estructuras de Control.pdf" download> Ejercicios: Tipos de Datos y Estructuras de Control </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 2/Ejercicios - Variables y tipos de datos y Estructuras de Control.pdf'); ?>" download> Ejercicios: Tipos de Datos y Estructuras de Control </a> 
 						</div>
 					</div>    
 					<hr> 
@@ -154,7 +154,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 5/06 - Listas.pdf" download> Diapositivas: Listas </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 5/06 - Listas.pdf'); ?>" download> Diapositivas: Listas </a> 
 						</div>             
 					</div>   
 					<hr>             
@@ -163,7 +163,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 5/Ejercicios - Listas.pdf" download> Ejercicios: Listas </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 5/Ejercicios - Listas.pdf'); ?>" download> Ejercicios: Listas </a> 
 						</div>
 					</div>             
 					<hr>             
@@ -172,7 +172,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 5/practica-strings-listas.pdf" download> Ejercicios: Listas y Cadenas de Texto </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 5/practica-strings-listas.pdf'); ?>" download> Ejercicios: Listas y Cadenas de Texto </a> 
 						</div>
 					</div>    
 					<hr> 
@@ -181,7 +181,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 5/Taller de Listas.pdf"> Taller: Listas </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 5/Taller de Listas.pdf' ); ?>" download> Taller: Listas </a>
 						</div>                    
 					</div>
 					<hr>
@@ -190,7 +190,7 @@
 							<img src="http://iconshow.me/download.php?file=path/media/images/Mixed/Ballicons-2-icons/png/512/pencil.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 5/funciones.pdf"> Anexo: Funciones de Listas y Cadenas de Texto </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 5/funciones.pdf'); ?>" download> Anexo: Funciones de Listas y Cadenas de Texto </a>
 						</div>  
 					</div>
 				</div>
@@ -211,7 +211,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 7/07 - Arreglos n-Dimensionales.pdf" download> Diapositivas: Arreglos N-Dimensionales </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 7/07 - Arreglos n-Dimensionales.pdf'); ?>" download> Diapositivas: Arreglos N-Dimensionales </a> 
 						</div>             
 					</div>   
 					<hr>             
@@ -220,7 +220,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 7/ejercicio-numpy.pdf" download> Ejercicios: Numpy (Parte 1) </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 7/ejercicio-numpy.pdf'); ?>" download> Ejercicios: Numpy (Parte 1) </a> 
 						</div>
 					</div>             
 					<hr>             
@@ -229,7 +229,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 7/ejercicios.docx" download> Ejercicios: Numpy (Parte 2)</a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 7/ejercicios.docx'); ?>" download> Ejercicios: Numpy (Parte 2)</a> 
 						</div>
 					</div>    
 					<hr> 
@@ -238,7 +238,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 7/Taller123.docx" download> Taller: Numpy </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 7/Taller123.docx'); ?>" download> Taller: Numpy </a>
 						</div>                    
 					</div>
 					<hr>
@@ -247,7 +247,7 @@
 							<img src="http://iconshow.me/download.php?file=path/media/images/Mixed/Ballicons-2-icons/png/512/pencil.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 7/funciones.pdf" download> Anexo: Funciones de Numpy </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 7/funciones.pdf'); ?>" download> Anexo: Funciones de Numpy </a>
 						</div>  
 					</div>
 					<hr>
@@ -286,7 +286,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 10/08 - Funciones.pdf" download> Diapositivas: Arreglos N-Dimensionales </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 10/08 - Funciones.pdf'); ?>" download> Diapositivas: Arreglos N-Dimensionales </a> 
 						</div>             
 					</div>   
 					<hr>             
@@ -295,7 +295,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 10/ejercicios.docx" download> Ejercicios: Funciones </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 10/ejercicios.docx'); ?>" download> Ejercicios: Funciones </a> 
 						</div>
 					</div>             
 					<hr>             
@@ -304,7 +304,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 10/taller1.pdf" download> Taller 1: Funciones</a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 10/taller1.pdf'); ?>" download> Taller 1: Funciones</a> 
 						</div>
 					</div>    
 					<hr> 
@@ -313,7 +313,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 10/taller2.pdf" download> Taller 2: Funciones </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 10/taller2.pdf'); ?>" download> Taller 2: Funciones </a>
 						</div>                    
 					</div>
 				</div>
@@ -334,7 +334,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 13/diapos.pdf" download> Diapositivas: Colecciones </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 13/diapos.pdf'); ?>" download> Diapositivas: Colecciones </a> 
 						</div>             
 					</div>               
 					<hr>     
@@ -343,7 +343,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 13/ejercicios1.docx" download> Ejercicios 1: Colecciones </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 13/ejercicios1.docx'); ?>" download> Ejercicios 1: Colecciones </a> 
 						</div>
 					</div>   
 					<hr>        
@@ -352,7 +352,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 13/ejercicios2.docx" download> Ejercicios 2: Colecciones </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 13/ejercicios2.docx'); ?>" download> Ejercicios 2: Colecciones </a> 
 						</div>
 					</div>    
 					<hr> 
@@ -361,7 +361,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 13/taller1.pdf" download> Taller 1: Colecciones </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 13/taller1.pdf'); ?>" download> Taller 1: Colecciones </a>
 						</div>                    
 					</div>
 					<hr>
@@ -370,7 +370,7 @@
 							<img src="http://iconshow.me/download.php?file=path/media/images/Mixed/Ballicons-2-icons/png/512/pencil.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 13/funciones.pdf" download> Anexo: Funciones de Colecciones </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 13/funciones.pdf'); ?>" download> Anexo: Funciones de Colecciones </a>
 						</div>  
 					</div>
 				</div>
@@ -391,7 +391,7 @@
 							<img src="https://cdn3.iconfinder.com/data/icons/token/128/Slides.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 15/diapos.pdf" download> Diapositivas: Archivos </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 15/diapos.pdf'); ?>" download> Diapositivas: Archivos </a> 
 						</div>             
 					</div>               
 					<hr>     
@@ -400,7 +400,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 15/ejercicios1.docx" download> Ejercicios 1: Archivos </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 15/ejercicios1.docx'); ?>" download> Ejercicios 1: Archivos </a> 
 						</div>
 					</div>   
 					<hr>        
@@ -409,7 +409,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 15/ejercicios2.docx" download> Ejercicios 2: Archivos </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 15/ejercicios2.docx'); ?>" download> Ejercicios 2: Archivos </a> 
 						</div>
 					</div>    
 					<hr>
@@ -418,7 +418,7 @@
 							<img src="http://longlong8.com/portfolio/images/longlong/settings.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 15/ejercicios3.docx" download> Ejercicios 3: Archivos </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 15/ejercicios3.docx'); ?>" download> Ejercicios 3: Archivos </a> 
 						</div>
 					</div>   
 					<hr>
@@ -427,7 +427,7 @@
 							<img src="http://icons.veryicon.com/256/System/Kameleon/Programming.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/Semana 15/taller1.pdf" download> Taller 1: Archivos </a>
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/Semana 15/taller1.pdf'); ?>" download> Taller 1: Archivos </a>
 						</div>                    
 					</div>
 				</div>
@@ -487,7 +487,7 @@
 							<img src="https://static.tildacdn.com/tild6339-6335-4462-a536-343466363739/document512.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/examenes/1erP-2016-1.pdf" download> Primer Parcial: 2016 - 1 </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/examenes/1erP-2016-1.pdf'); ?>" download> Primer Parcial: 2016 - 1 </a> 
 						</div>
 					</div>    
 					<hr>
@@ -496,7 +496,7 @@
 							<img src="https://static.tildacdn.com/tild6339-6335-4462-a536-343466363739/document512.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/examenes/1erP-2016-2.pdf" download> Primer Parcial: 2016 - 2 </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/examenes/1erP-2016-2.pdf'); ?>" download> Primer Parcial: 2016 - 2 </a> 
 						</div>
 					</div>   
 					<hr>
@@ -505,7 +505,7 @@
 							<img src="https://static.tildacdn.com/tild6339-6335-4462-a536-343466363739/document512.png" width="30" height="30">
 						</div>
 						<div class="col-md-5 col-xs-10">
-							<a href="Semana a Semana/examenes/2erP-2015-2.pdf" download> Segundo Parcial: 2015 - 2 </a> 
+							<a href="<?php echo base_url('public/material fundamentos/Semana a Semana/examenes/2doP-2015-2.pdf'); ?>" download> Segundo Parcial: 2015 - 2 </a> 
 						</div>                 
 					</div>
 				</div>
