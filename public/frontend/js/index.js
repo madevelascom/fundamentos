@@ -46,6 +46,7 @@ function animText(){
 	$('.header-text').animate({opacity: 1}, 'slow', 'linear');
 }
 
+/* Carga de JSON para pagina de proyectos */
 function loadProject(){
 	$("#up-proj").empty();
 	$.getJSON("cargar_proyectos", function(ans){
@@ -67,7 +68,7 @@ function loadProject(){
 			$modalTitle.text(projects[i].titulo);
 			var $modalBody = $("<div>", {"class":"modal-body"});
 			var $modalFooter = $("<div>", {"class":"modal-footer"});
-			var url = "<?php echo base_url('"+projects[i].url+"'); ?>";
+			var url = projects[i].url;
 			var $downloadButton = $("<a>", {"href":url, "class":"btn btn-default", "target":"_blank"});
 			$downloadButton.text("Descargar");
 			var $closeButton = $("<button>", {"type":"button", "class":"btn btn-default", "data-dismiss":"modal"});
