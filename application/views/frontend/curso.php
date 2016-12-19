@@ -7,7 +7,7 @@
         </div>
     </div>
 </header>
-<section id="curso-body" class="mt-xs-20 mt-md-20 mt-lg-20">
+<section id="curso-body">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 curso-desc">
