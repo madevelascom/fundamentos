@@ -17,6 +17,7 @@
 				<li><a href="<?php echo site_url("web/curso"); ?>">Curso</a></li>
 				<li><a href="<?php echo site_url("web/semanas"); ?>">Semana a Semana</a></li>
 				<li><a href="<?php echo site_url("web/ayudantias"); ?>">Ayudantías</a></li>
+				<li><a href="<?php echo site_url("web/proyectos"); ?>">Proyectos</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">

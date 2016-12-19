@@ -71,6 +71,15 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
+     public function proyectos() {
+        $titulo = "Proyectos";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['proyectos'] = $this->load->view('frontend/proyectos', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
     public function cargar_listaDeEjercicios(){
         $data = "";
         $this->load->view('frontend/ejercicios.json', $data);
@@ -81,5 +90,8 @@ class Web extends CI_Controller {
 		$this->load->view('frontend/equipo.json', $data);
 	}
 
-
+    public function cargar_proyectos(){
+        $data = "";
+        $this->load->view('frontend/proyectos.json', $data);
+    }
 }

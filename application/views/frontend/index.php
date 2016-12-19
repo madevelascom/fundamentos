@@ -5,7 +5,7 @@
 				<div class = 'row pt-lg-150 pt-sm-30'>
 					<div class="col-lg-12">
 						<h1 class="header-title">
-							<span id="typo"></span><span id="cursor">|</span>
+							<span id="typo"></span><!--<span id="cursor">|</span>-->
 						</h1>
 					</div>
 				</div>	

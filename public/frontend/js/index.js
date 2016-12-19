@@ -11,8 +11,6 @@ $(window).load(function(){
 
 			});
 	}
-	
-	
 });
 
 /* FUNCIONES PARA LA ANIMACION DEL TEXTO EN HEADER */
@@ -23,7 +21,7 @@ $(window).load(function(){
 * @delay es el tiempo de espera antes de empezar la animacion */
 jQuery.fn.type = function(text, cursor, delay) {
 	var element = $(this);
-	setInterval('cur()', 100);
+	//setInterval('cur()', 100);
 	setTimeout(function() { anim(element, text); }, delay);
 }
 /* Animacion del cursor*/
@@ -46,4 +44,47 @@ function anim(element, text) {
 /* Animacion del texto */
 function animText(){
 	$('.header-text').animate({opacity: 1}, 'slow', 'linear');
+}
+
+function loadProject(){
+	$("#up-proj").empty();
+	$.getJSON("cargar_proyectos", function(ans){
+		var projects = ans.proyectos;
+		for(i = 0; i<projects.length; i++){
+			//console.log("ans");
+			var $panel = $("<div>", {"class":"well project-panel"});
+			var $title = $("<h4>",  {"class":"bold"});
+			var $link = $("<a>", {"data-toggle": "modal", "data-target": "#proj-info"+i});
+			$link.text(projects[i].titulo);
+			$title.append($link);
+			$panel.append($title);
+			$("#up-proj").append($panel);
+			var $modal = $("<div>",{"id":"proj-info"+i, "class":"modal fade", "role":"dialog"});
+			var $modalDialog = $("<div>", {"class":"modal-dialog"});
+			var $modalContent = $("<div>", {"class":"modal-content"});
+			var $modalHeader = $("<div>", {"class":"modal-header"});
+			var $button = $("<button>", {"type":"button", "class":"close", "data-dismiss":"modal"});
+			$button.text("x");
+			var $modalTitle = $("<h4>", {"class":"modal-title"});
+			$modalTitle.text(projects[i].titulo);
+			var $modalBody = $("<div>", {"class":"modal-body"});
+			var $modalFooter = $("<div>", {"class":"modal-footer"});
+			var url = "<?php echo base_url('"+projects[i].url+"'); ?>";
+			var $downloadButton = $("<a>", {"href":url, "class":"btn btn-default", "target":"_blank"});
+			$downloadButton.text("Descargar");
+			var $closeButton = $("<button>", {"type":"button", "class":"btn btn-default", "data-dismiss":"modal"});
+			$closeButton.text("Cerrar");
+			$modalFooter.append($downloadButton);
+			$modalFooter.append($closeButton);
+			$modalBody.text(projects[i].descripcion);
+			$modalHeader.append($button);
+			$modalHeader.append($modalTitle);
+			$modalContent.append($modalHeader);
+			$modalContent.append($modalBody);
+			$modalContent.append($modalFooter);
+			$modalDialog.append($modalContent);
+			$modal.append($modalDialog);
+			$("#up-proj").append($modal);
+		}
+	});
 }

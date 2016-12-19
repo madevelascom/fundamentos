@@ -7,14 +7,14 @@
         </div>
     </div>
 </header>
-<section id="curso-body">
+<section id="curso-body" class="mt-xs-20 mt-md-20 mt-lg-20">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 curso-desc">
                 El curso presenta a los estudiantes estrategias para resolver problemas comunes en diversas profesiones por medio del diseño e implementación de soluciones basadas en el uso de un lenguaje de programación. Cubre los principios básicos para que el estudiante pueda leer y escribir programas; haciendo énfasis en el diseño y análisis de algoritmos. Además, introduce a los estudiantes en el uso de herramientas de desarrollo y depuración.
             </div>
         </div>
-        <div class="row mt-xs-20 mt-md-20 mt-lg-20">
+        <div class="row">
             <div class="col-lg-10 col-lg-offset-1 well">
                 <!-- Tabs -->
                  <ul class="nav nav-tabs" role="tablist">
