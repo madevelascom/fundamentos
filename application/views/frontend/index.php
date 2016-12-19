@@ -254,7 +254,7 @@
 			</div>
 			<div class="row pt-10">
 				<div class="align-center">
-					<a href="<?php echo site_url("web/curso"); ?>" class = "btn chk-syllabus-btn align-center">Revisa el syllabus aquí</a>
+					<a href="<?php echo site_url("web/curso"); ?>" class = "btn btn-default chk-syllabus-btn ">Revisa el syllabus aquí</a>
 				</div>
 			</div>
 		</div>

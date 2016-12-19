@@ -240,8 +240,7 @@ html, body {
 	font-weight: bold;
 }
 .chk-syllabus-btn,.chk-syllabus-btn:focus{
-	width: 250px;
-	font-size: 24px;
+	font-size: 20px;
 	background-color: #01A7E5;
 	border-color: #01A7E5;
 	color: #FFFFFF;

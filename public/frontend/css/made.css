@@ -65,7 +65,7 @@ nav{
     font-family: 'Muli', sans-serif;
 }
 
-#ayudantias .panel-heading, #semanas .panel-heading{
+.panel-heading{
     font-family: 'Muli', sans-serif;
     background-color: #01A4A4;
     color: white;
