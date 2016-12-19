@@ -16,6 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/custom-bootstrap-margin-padding.css'); ?>">
         <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300|Roboto+Condensed:300" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/profesorescss.css'); ?>" >
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/ejerciciocss.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/made.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/ivan.css'); ?>" >
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/frontend/css/icons.css'); ?>" >
