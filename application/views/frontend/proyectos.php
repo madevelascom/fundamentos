@@ -7,7 +7,7 @@
         </div>
     </div>
 </header>
-<section id="proyectos-body" class="mt-xs-20 mb-xs-20 mt-md-20 mb-md-20 mt-lg-20 mb-lg-20">
+<section id="proyectos-body">
 	<div class="container">
 		<div class="row">
 			<div id="proyectos-side-bar" class="col-lg-2 well side-bar">

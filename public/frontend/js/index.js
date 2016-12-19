@@ -63,8 +63,6 @@ function loadProject(){
 			var $modalDialog = $("<div>", {"class":"modal-dialog"});
 			var $modalContent = $("<div>", {"class":"modal-content"});
 			var $modalHeader = $("<div>", {"class":"modal-header"});
-			var $button = $("<button>", {"type":"button", "class":"close", "data-dismiss":"modal"});
-			$button.text("x");
 			var $modalTitle = $("<h4>", {"class":"modal-title"});
 			$modalTitle.text(projects[i].titulo);
 			var $modalBody = $("<div>", {"class":"modal-body"});
@@ -77,7 +75,6 @@ function loadProject(){
 			$modalFooter.append($downloadButton);
 			$modalFooter.append($closeButton);
 			$modalBody.text(projects[i].descripcion);
-			$modalHeader.append($button);
 			$modalHeader.append($modalTitle);
 			$modalContent.append($modalHeader);
 			$modalContent.append($modalBody);
