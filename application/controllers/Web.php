@@ -100,7 +100,7 @@ class Web extends CI_Controller {
     }
 	
 	public function sandboxProfesor(){
-        $titulo = "SandBox - Profesor";
+        $titulo = "Fundamentos - SandBox de Profesor";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);

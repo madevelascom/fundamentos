@@ -20,7 +20,6 @@
 <script src="<?php echo base_url('public/frontend/js/jquery.smartscroll.js'); ?>"></script>
 <script src="<?php echo base_url('public/frontend/js/leonardo_ayudantias.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('public/frontend/js/index.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('public/frontend/js/israelejercicios.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('public/frontend/js/leonardo_sandboxprofesor.js'); ?>"></script>
 </body>
 </html>

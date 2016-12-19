@@ -11,6 +11,7 @@ function load_ejercicio(){
 	$.getJSON( 'cargar_listaDeEjercicios', function(rest) {
 
 		for (var i in rest.ejercicios) {
+			console.log(i);
 
 			$(".list-group").append(
 				$("<div>",{"class":"list-group-item mb-15"}).append(

@@ -141,7 +141,6 @@
 	</div>
 </div>
 
-<a id="applink" href="comgooglemaps://?q=Red+Lobster+Billings">Show map</a>
 
 <div id="labs" class="modal fade" role="dialog">
 	<div class="modal-dialog">
