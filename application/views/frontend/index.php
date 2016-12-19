@@ -3,23 +3,19 @@
 		<div class="row">
 			<div class = 'container '>
 				<div class = 'row pt-lg-150 pt-sm-30'>
-					<div class="col-lg-12">
-						<h1 class="header-title">
+					<div class="col-lg-12 col-xs-12">
+						<h1 class="header-title ttl-rsp">
 							<span id="typo"></span><span id="cursor">|</span>
 						</h1>
 					</div>
 				</div>	
 				<div class="row pt-lg-20">
-					<div class="col-lg-12">
-						<div class="header-text">
-							<span>¿Estás interesado en aprender a programar, pero no sabes por dónde empezar?
-								<br>
-								No te asustes, este curso es para ti. Aprenderás los <span class="bold">principios fundamentales</span> de una forma intuitiva y práctica.
-								<br>
-								Al final te darás cuenta que la programación es <span class="bold">fácil</span> y <span class="bold">apasionante</span>.
-								<br>
-								¡A programar! 
-							</span>
+					<div class="col-lg-12 col-xs-12">
+						<div class="header-text header-dsc">
+							<p class = 'pb-0 mb-0 pt-0 mt-0'>¿Estás interesado en aprender a programar, pero no sabes por dónde empezar?</p>
+							<p class = 'pb-0 mb-0 pt-0 mt-0'>No te asustes, este curso es para ti. Aprenderás los <span class="bold">principios fundamentales</span> de una forma intuitiva y práctica.</p>
+							<p class = 'pb-0 mb-0 pt-0 mt-0'>Al final te darás cuenta que la programación es <span class="bold">fácil</span> y <span class="bold">apasionante</span></p>
+							<p class = 'pb-0 mb-0 pt-0 mt-0'>¡A programar!</p>
 						</div>
 					</div>
 				</div> 	
@@ -32,10 +28,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="section2-title">
+				<h1 class="section2-title ">
 					¿Por qué deberías aprender a programar?
 				</h1>
-				<h2 class="section2-sub">
+				<h2 class="section2-sub sec-ttl">
 					No necesitas ser un genio para aprender a leer y escribir código. Es fácil y divertido.
 				</h2>
 			</div>
@@ -155,9 +151,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="section1-title">
+					<h1 class="section1-title">
 						Puedes lograr muchas cosas con la programación
-					</div>
+					</h1>
 				</div>
 			</div>
 			<div class = 'row pt-10'>
@@ -201,42 +197,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="landing-section3-title">
+					<h1 class="landing-section3-title">
 						Algunas cosas que aprenderás en este curso
-					</div>
+					</h1>
 				</div>
 			</div>
 			<div class="row mt-lg-40">
 				<div class="col-md-4 col-xs-12 pt-10">
-					<ul class="no-bullet">
-						<li class = 'section3-icon-container pt-5'>	
-							<div class="row center-block">
-								<div class="col-lg-2 col-xs-1">
-									<span class="daw-check section3-icon"></span>
-								</div>
-								<div class="col-lg-10 col-xs-11">
-									Variables y tipos de datos
-								</div>
+					<ul class="no-bullet list-unstyled">
+						<li class = 'section3-icon-container pt-10'>	
+							<div class = 'col-xs-12'>
+								<span class="daw-check section3-icon"></span><span> Variables y tipos de datos</span>
 							</div>
 						</li>
-						<li class = 'section3-icon-container pt-5'>
-							<div class="row center-block">
-								<div class="col-lg-2 col-xs-1">
-									<span class="daw-check section3-icon"></span>
-								</div>
-								<div class="col-lg-10 col-xs-11">
-									Estructuras de control
-								</div>
+						<li class = 'section3-icon-container pt-10'>
+							<div class = 'col-xs-12'>
+								<span class="daw-check section3-icon"></span><span> Estructuras de control</span>
 							</div>
 						</li>
-						<li class = 'section3-icon-container pt-5'>
-							<div class="row center-block">
-								<div class="col-lg-2 col-xs-1">
-									<span class="daw-check section3-icon"></span>
-								</div>
-								<div class="col-lg-10 col-xs-11">
-									Funciones
-								</div>
+						<li class = 'section3-icon-container pt-10'>
+							<div class = 'col-xs-12'>
+								<span class="daw-check section3-icon"></span><span> Funciones</span>
 							</div>
 						</li>
 					</ul>
@@ -247,41 +228,22 @@
 					</div>				
 				</div>
 				<div class="col-md-4 col-xs-12 pt-10">
-					<ul class="no-bullet">
-						<li class = 'section3-icon-container pt-5'>
-							<div class="row center-block">
-								<div class="col-lg-2 col-xs-1">
-									<span class="daw-check section3-icon"></span>
-								</div>
-								<div class="col-lg-10 col-xs-11">
-									Listas
-								</div>
+					<ul class="no-bullet list-unstyled">
+						<li class = 'section3-icon-container pt-10'>
+							<div class = 'col-xs-12'>
+								<span class="daw-check section3-icon"></span><span> Listas</span>
 							</div>
 
 						</li>
-						<li class = 'section3-icon-container pt-5'>
-
-							<div class="row center-block">
-								<div class="col-lg-2 col-xs-1">
-									<span class="daw-check section3-icon"></span>
-								</div>
-								<div class="col-lg-10 col-xs-11">
-									Arreglos N-dimensionales
-								</div>
+						<li class = 'section3-icon-container pt-10'>
+							<div class = 'col-xs-12'>
+								<span class="daw-check section3-icon"></span><span> Arreglos N-dimensionales</span>
 							</div>
-
 						</li>
-						<li class = 'section3-icon-container pt-5'>
-
-							<div class="row center-block">
-								<div class="col-lg-2 col-xs-1">
-									<span class="daw-check section3-icon"></span>
-								</div>
-								<div class="col-lg-10 col-xs-11">
-									Colecciones
-								</div>
+						<li class = 'section3-icon-container pt-10'>
+							<div class = 'col-xs-12'>
+								<span class="daw-check section3-icon"></span><span> Colecciones</span>
 							</div>
-
 						</li>
 					</ul>
 				</div>
@@ -291,7 +253,7 @@
 			</div>
 			<div class="row pt-10">
 				<div class="align-center">
-					<a href="#" class = "btn chk-syllabus-btn align-center">Revisa el syllabus aquí</a>
+					<a href="<?php echo site_url("web/curso"); ?>" class = "btn chk-syllabus-btn align-center">Revisa el syllabus aquí</a>
 				</div>
 			</div>
 		</div>

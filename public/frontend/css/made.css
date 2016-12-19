@@ -52,10 +52,7 @@ nav{
 
 
 /* Quotes at index*/
-.quote{
-    color: #FFFFFF;
-    font-size: 30px;
-}
+
 .quote-author{
     color: #FFFFFF;
     font-size: 24px;
@@ -166,4 +163,67 @@ footer{
 /*Menu*/
 .navbar-collapse.collapse.in{
     background-color: #333333;
+}
+
+
+/*Index media queries*/
+@media (max-width: 480px)  {
+    .ttl-rsp{
+        font-size:36px;
+    }
+    .sec-ttl{
+        font-size:22px;
+    }
+    .quote{
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .ttl-rsp{
+        font-size:36px;
+    }
+    .sec-ttl{
+        font-size:22px;
+    }
+    .quote{
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .ttl-rsp{
+        font-size:60px;
+    }
+    .quote{
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    .header-dsc{
+        font-size: 24px ;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .ttl-rsp{
+        font-size:75px;
+    }
+    .quote{
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    .header-dsc{
+        font-size: 24px;
+    }
+}
+@media (min-width: 1200px) {
+    .ttl-rsp{
+        font-size:75px;
+    }
+    .quote{
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    .header-dsc{
+        font-size: 24px;
+    }
 }

@@ -3,7 +3,7 @@ $(window).load(function(){
 		$("#typo").type("Fundamentos de Programación", $("#cursor"), 500);
 		animText();
 		$("#owl-landing-1").owlCarousel({
-			autoPlay: 5000,
+			autoPlay: 10000,
 			navigation : false, // Show next and prev buttons
 			slideSpeed : 300,
 			paginationSpeed : 400,
