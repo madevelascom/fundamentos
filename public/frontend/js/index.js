@@ -1,6 +1,6 @@
 $(window).load(function(){
 	if ($("#typo").length){
-		$("#typo").type("Fundamentos de Programación", $("#cursor"), 500);
+		$("#typo").type("Fundamentos de Programación", 500);
 		animText();
 		$("#owl-landing-1").owlCarousel({
 			autoPlay: 10000,
@@ -23,18 +23,20 @@ $(window).load(function(){
 * @element es el contenedor del texto a animar. Inicialmente debe estar vacio
 * @text es el texto que vamos a animar
 * @delay es el tiempo de espera antes de empezar la animacion */
-jQuery.fn.type = function(text, cursor, delay) {
+jQuery.fn.type = function(text, delay) {
 	var element = $(this);
-	//setInterval('cur()', 100);
+	setInterval('cursorAnimation()', 100);
 	setTimeout(function() { anim(element, text); }, delay);
 }
 /* Animacion del cursor*/
-function cur() {
-	$(cursor).animate({
-		opacity: 0
-	}, 'fast', 'swing').animate({
-		opacity: 1
-	}, 'fast', 'swing');
+function cursorAnimation() {
+	if ($("#cursor").length){
+		$("#cursor").animate({
+			opacity: 0
+		}, 'fast', 'swing').animate({
+			opacity: 1
+		}, 'fast', 'swing');
+	}
 }
 /* Animacion del titulo */
 function anim(element, text) {
