@@ -230,6 +230,26 @@ html, body {
 	padding-bottom: 0;
 }
 
+/**
+ * ========================================
+ * PROYECTOS
+ * ========================================
+ */
+
+/* ===BODY=== */
+#semanas-body .panel-title{
+	font-weight: bold;
+}
+#semanas-body .panel-link, #semanas-body .panel-link:visited{
+	color: #000;
+	transition: all 0.25s;
+}
+#semanas-body .panel-link:hover, #semanas-body .panel-link:focus{
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.15s;
+}
+
  
 /**
  * ========================================

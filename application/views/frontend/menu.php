@@ -15,7 +15,7 @@
 			<ul class="nav navbar-nav">
 				<li><a href="<?php echo site_url("web/index"); ?>">Inicio <span class="sr-only">(current)</span></a></li>
 				<li><a href="<?php echo site_url("web/curso"); ?>">Curso</a></li>
-				<li><a href="<?php echo site_url("web/semanas"); ?>">Semana a Semana</a></li>
+				<li><a href="<?php echo site_url("web/semanas"); ?>">Planificación</a></li>
 				<li><a href="<?php echo site_url("web/equipo"); ?>">Equipo</a></li>
 				<li><a href="<?php echo site_url("web/ayudantias"); ?>">Ayudantías</a></li>
 				<li><a href="<?php echo site_url("web/proyectos"); ?>">Proyectos</a></li>

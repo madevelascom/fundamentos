@@ -1,7 +1,7 @@
 <header id="proyectos-header" class="mt-xs-50 mt-md-50 mt-lg-50">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-offset-1 col-lg-10">
                 <h1>Proyectos</h1>                       
             </div>
         </div>
