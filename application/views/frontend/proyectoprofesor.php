@@ -28,7 +28,8 @@
 						
 					</div>
 					<div class = 'row'>
-						Aqui debe de ir la lista de los ejercicios del profesor. A parte del boton ver, debe existir el boton editar y borrar. Cuando le des a editar, que redireccion como si fuera un ejercicio nuevo. De esta misma manera se deben mostrar los proyectos.
+						<div class="list-group-item mb-15"><div class="row"><div class="col-md-10"><h4 class="list-group-item-heading tit-list-eje">Reportes Instituto Geofisico</h4><div class="list-group-item-text pb-5"><span>Dificultad: Fácil</span></div></div><div class="col-md-2 solve-col"><a class="btn btn-default diff-btn solve-btn" href="ejercicio">Ver</a></div></div><div class="row"><div class="col-md-10"><span class="label label-default">suma</span><span class="label label-default">digitos</span></div><div class="col-md-2"></div></div></div>
+				
 					</div>
 					
 				</div>

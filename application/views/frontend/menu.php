@@ -25,7 +25,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo site_url("web/perfilProfesor"); ?>">Perfil</a></li>
 						<li><a href="<?php echo site_url("web/practicarprofesor"); ?>">Ejercicios</a></li>
-						<li><a href="<?php echo site_url("web/proyectoprofesor"); ?>">Proyectos</a></li>
+						<li><a href="<?php echo site_url("web/proyectos"); ?>">Proyectos</a></li>
 						<li role="separator" class="divider"></li>
 						<li><a href="<?php echo site_url("web/index"); ?>">Cerrar sesión</a></li>
 					</ul>
@@ -35,7 +35,6 @@
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo site_url("web/perfilEstudiante"); ?>">Perfil</a></li>
 						<li><a href="<?php echo site_url("web/practicar"); ?>">Ejercicios</a></li>
-						<li><a href="<?php echo site_url("web/proyecto"); ?>">Proyectos</a></li>
 						<li role="separator" class="divider"></li>
 						<li><a href="<?php echo site_url("web/index"); ?>">Cerrar sesión</a></li>
 					</ul>
