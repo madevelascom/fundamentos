@@ -4,7 +4,7 @@
 
   		<div class="problemaText">
   			<div>
-  				<h4><strong>Descripción del Problema:</strong></h4>
+  				<h4><strong class="subtitulosx">Descripción del Problema:</strong></h4>
   			</div>
   			<div>
   				<p>
@@ -13,10 +13,10 @@
   			</div>
   		</div>
 
-  		<div class="formatoEntrada">
+  		<div class="formatoEntrada" >
 		  		<div>
 		  			<h4>
-		  				<strong>Formato de los Datos de Entrada:</strong>
+		  				<strong class="subtitulosx">Formato de los Datos de Entrada:</strong>
 		  			</h4>
 		  		</div>
 	  			<div>
@@ -30,7 +30,7 @@
 		<div class="output-format">
 			<div>
 				<h4>
-					<strong>Formato de los Datos de Salida:</strong>
+					<strong class="subtitulosx">Formato de los Datos de Salida:</strong>
 				</h4>
 			</div>
 
@@ -46,17 +46,17 @@
 
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title">
+						<h3 class="panel-title" id="mih2">
 							<strong>Ejemplo de Entrada:</strong>
 						</h3>
 					</div>
-					<div class="panel-body">
+					<div class="panel-body" id="panelentrada">
 						<div>
 							<p>
-								A.) <b>46</b>
+								 <b>46</b>
 							</p>
 							<p> 
-								B.) <b>234</b>
+								 <b>234</b>
 							</p>
 						</div>
 					</div>
@@ -67,17 +67,17 @@
 			<div class="col-md-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title">
-							<strong>Ejemplo de Salida:</strong>
+						<h3 class="panel-title" id="mih">
+							<strong >Ejemplo de Salida:</strong>
 						</h3>
 					</div>
-						<div class="panel-body">
+						<div class="panel-body"  id="panelsalida">
 							<div> 
 								<p>
-									A.) <b>4</b> + <b>6</b> = 10
+									 <b>4</b> + <b>6</b> = 10
 								</p>
 								<p>
-									B.) <b>2</b> + <b>3</b> + <b>4</b> = 9
+									 <b>2</b> + <b>3</b> + <b>4</b> = 9
 								</p>
 							</div>
 						</div>
@@ -88,7 +88,7 @@
 
 	<div>
 			<div>
-				<h4><strong>Probar su codigo:</strong></h4>
+				<h4><strong class="subtitulosx">Probar su codigo:</strong></h4>
 			</div>
 				<div class="row">
 					<div class="col-md-12">
@@ -109,8 +109,8 @@
 				</div>
 		
 			<div>
-				<h4><strong>Subir su codigo como Archivo:</strong></h4>
-				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+				<h4><strong class="subtitulosx">Subir su codigo como Archivo:</strong></h4>
+				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" id="cuerpo">
 					<span class="glyphicon glyphicon-upload" aria-hidden="true"></span> Subir Archivo
 				</button>
 
