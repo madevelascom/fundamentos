@@ -27,7 +27,7 @@
 						<li><a href="<?php echo site_url("web/practicarprofesor"); ?>">Ejercicios</a></li>
 						<li><a href="<?php echo site_url("web/proyectoprofesor"); ?>">Proyectos</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">Cerrar sesión</a></li>
+						<li><a href="<?php echo site_url("web/index"); ?>">Cerrar sesión</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -37,7 +37,7 @@
 						<li><a href="<?php echo site_url("web/practicar"); ?>">Ejercicios</a></li>
 						<li><a href="<?php echo site_url("web/proyecto"); ?>">Proyectos</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="#">Cerrar sesión</a></li>
+						<li><a href="<?php echo site_url("web/index"); ?>">Cerrar sesión</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
