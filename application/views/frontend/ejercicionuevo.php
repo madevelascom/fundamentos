@@ -76,7 +76,7 @@
 
 					<div class = 'align-center pt-20'>
 						<button type="submit" class="btn btn-default common-btn">Enviar ejercicio</button>
-						<button type="submit" class="btn btn-default common-btn">Regresar a ejercicios</button>
+						<a type="submit" class="btn btn-default common-btn" href = "<?php echo site_url("web/practicarprofesor"); ?>">Regresar a ejercicios</a>
 					</div>
 
 				</form>

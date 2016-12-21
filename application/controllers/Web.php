@@ -71,6 +71,17 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
+     public function practicarProfesor() {
+        $titulo = "Fundamentos - Pracicas de profesor";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['practicarProfesor'] = $this->load->view('frontend/practicarProfesor', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+     }
+
     public function equipo() {
         $titulo = "Fundamentos - Equipo";
         $dataHeader['titlePage'] = $titulo;
@@ -87,6 +98,24 @@ class Web extends CI_Controller {
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
         $data['proyectos'] = $this->load->view('frontend/proyectos', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
+    public function proyecto(){
+        $titulo = "Fundamentos - Proyectos";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['proyecto'] = $this->load->view('frontend/proyecto', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
+    public function proyectoprofesor(){
+        $titulo = "Fundamentos - Proyectos";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['proyectoprofesor'] = $this->load->view('frontend/proyectoprofesor', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 
@@ -141,7 +170,7 @@ class Web extends CI_Controller {
 	}
 
       public function perfilProfesor() {
-        $titulo = "Prefil Profesor";
+        $titulo = "Fundamentos - Perfil de Profesor";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
@@ -152,7 +181,7 @@ class Web extends CI_Controller {
      }
 
       public function perfilEstudiante() {
-        $titulo = "Prefil Estudiante";
+        $titulo = "Fundamentos - Perfil de Estudiante";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);

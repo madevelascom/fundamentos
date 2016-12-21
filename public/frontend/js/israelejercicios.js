@@ -25,7 +25,7 @@ function load_ejercicio(){
 								)
 						),
 						$("<div>", {"class": "col-md-2 col-sm-6 col-xs- 6 solve-col"}).append(
-							$("<a>",{"class":"btn btn-default diff-btn solve-btn", "href":"ejercicio", "text":"Resolver"})
+							$("<a>",{"class":"btn btn-default diff-btn solve-btn", "href":"ejercicio", "text":"Ver"})
 							)
 						
 						
