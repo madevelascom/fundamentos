@@ -4,7 +4,7 @@
 	<h1 class = 'align-center'>Información del curso</h1>
 	<div class="container pt-20">
 		<div class="row">
-			<div class="col-lg-12 curso-desc">
+			<div class="col-lg-10 col-lg-offset-1 curso-desc">
 				El curso presenta a los estudiantes estrategias para resolver problemas comunes en diversas profesiones por medio del diseño e implementación de soluciones basadas en el uso de un lenguaje de programación. Cubre los principios básicos para que el estudiante pueda leer y escribir programas, haciendo énfasis en el diseño y análisis de algoritmos. Además, introduce a los estudiantes en el uso de herramientas de desarrollo y depuración.
 			</div>
 		</div>

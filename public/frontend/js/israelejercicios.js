@@ -1,6 +1,6 @@
-$( document ).ready(function() {
+$(window).load(function() {
 
-	if ($("#practicar").length){
+	if ($("#practice").length){
 		load_ejercicio();
 	};
 	
@@ -11,6 +11,7 @@ function load_ejercicio(){
 	$.getJSON( 'cargar_listaDeEjercicios', function(rest) {
 
 		for (var i in rest.ejercicios) {
+			console.log(i);
 
 			$(".list-group").append(
 				$("<div>",{"class":"list-group-item mb-15"}).append(
@@ -24,7 +25,7 @@ function load_ejercicio(){
 								)
 						),
 						$("<div>", {"class": "col-md-2 solve-col"}).append(
-							$("<button>",{"class":"btn btn-default diff-btn solve-btn", "href":'<?php echo site_url("web/ejercicioDetalle");?>', "text":"Resolver"})
+							$("<a>",{"class":"btn btn-default diff-btn solve-btn", "href":"ejercicioDetalle", "text":"Resolver"})
 							)
 						
 						

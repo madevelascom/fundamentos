@@ -1,6 +1,6 @@
 $(window).load(function(){
 	if ($("#typo").length){
-		$("#typo").type("Fundamentos de Programación", $("#cursor"), 500);
+		$("#typo").type("Fundamentos de Programación", 500);
 		animText();
 		$("#owl-landing-1").owlCarousel({
 			autoPlay: 10000,
@@ -8,9 +8,13 @@ $(window).load(function(){
 			slideSpeed : 300,
 			paginationSpeed : 400,
 			singleItem:true
-
-			});
+		});
 	}
+
+	if ($("#practice").length){
+		console.log("rest");
+		load_ejercicio();
+	};
 });
 
 /* FUNCIONES PARA LA ANIMACION DEL TEXTO EN HEADER */
@@ -19,18 +23,20 @@ $(window).load(function(){
 * @element es el contenedor del texto a animar. Inicialmente debe estar vacio
 * @text es el texto que vamos a animar
 * @delay es el tiempo de espera antes de empezar la animacion */
-jQuery.fn.type = function(text, cursor, delay) {
+jQuery.fn.type = function(text, delay) {
 	var element = $(this);
-	//setInterval('cur()', 100);
+	setInterval('cursorAnimation()', 100);
 	setTimeout(function() { anim(element, text); }, delay);
 }
 /* Animacion del cursor*/
-function cur() {
-	$(cursor).animate({
-		opacity: 0
-	}, 'fast', 'swing').animate({
-		opacity: 1
-	}, 'fast', 'swing');
+function cursorAnimation() {
+	if ($("#cursor").length){
+		$("#cursor").animate({
+			opacity: 0
+		}, 'fast', 'swing').animate({
+			opacity: 1
+		}, 'fast', 'swing');
+	}
 }
 /* Animacion del titulo */
 function anim(element, text) {
@@ -46,6 +52,7 @@ function animText(){
 	$('.header-text').animate({opacity: 1}, 'slow', 'linear');
 }
 
+/* Carga de JSON para pagina de proyectos */
 function loadProject(){
 	$("#up-proj").empty();
 	$.getJSON("cargar_proyectos", function(ans){
@@ -67,7 +74,7 @@ function loadProject(){
 			$modalTitle.text(projects[i].titulo);
 			var $modalBody = $("<div>", {"class":"modal-body"});
 			var $modalFooter = $("<div>", {"class":"modal-footer"});
-			var url = "<?php echo base_url('"+projects[i].url+"'); ?>";
+			var url = projects[i].url;
 			var $downloadButton = $("<a>", {"href":url, "class":"btn btn-default", "target":"_blank"});
 			$downloadButton.text("Descargar");
 			var $closeButton = $("<button>", {"type":"button", "class":"btn btn-default", "data-dismiss":"modal"});
@@ -82,6 +89,46 @@ function loadProject(){
 			$modalDialog.append($modalContent);
 			$modal.append($modalDialog);
 			$("#up-proj").append($modal);
+		}
+	});
+}
+
+function load_ejercicio(){
+	console.log("rest");
+	$.getJSON('cargar_listaDeEjercicios', function(rest) {
+
+		for (var i in rest.ejercicios) {
+			console.log(i);
+
+			$(".list-group").append(
+				$("<div>",{"class":"list-group-item mb-15"}).append(
+					$("<div>", {"class": "row"}).append(
+						$("<div>", {"class": "col-md-10"}).append(
+							$("<h4>",{"class":"list-group-item-heading tit-list-eje","text":rest.ejercicios[i].titulo}).append(),
+							$("<div>",{"class":"list-group-item-text pb-5"}).append(
+								$("<span>",{"text":"Dificultad: "+rest.ejercicios[i].nivel }).append(),
+								$("<span>",{"class":"pl-20", "text":"Veces Resuelto: "+rest.ejercicios[i].resuelto}).append()
+												
+								)
+						),
+						$("<div>", {"class": "col-md-2 solve-col"}).append(
+							$("<a>",{"class":"btn btn-default diff-btn solve-btn", "href":"ejercicioDetalle", "text":"Resolver"})
+							)
+						
+						
+					),
+					$("<div>", {"class": "row"}).append(
+						$("<div>", {"class": "col-md-10"}).append(
+							$("<span>",{"class":"label label-default","text":rest.ejercicios[i].etiquetas[0].etiqueta1}).append(),
+								$("<span>",{"class":"label label-default","text":rest.ejercicios[i].etiquetas[1].etiqueta1}).append()	),
+						$("<div>", {"class": "col-md-2"}).append(
+						
+							)
+						)
+
+					)
+
+				)
 		}
 	});
 }

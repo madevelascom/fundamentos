@@ -11,7 +11,7 @@ class Web extends CI_Controller {
     }
 
      public function index() {
-        $titulo = "Fundamentos";
+        $titulo = "Fundamentos - Inicio";
         $dataHeader['titlePage'] = $titulo;
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu',array()  );
@@ -22,7 +22,7 @@ class Web extends CI_Controller {
     }
 
     public function curso() {
-        $titulo = "Información del Curso";
+        $titulo = "Fundamentos - Información del Curso";
         $dataHeader['titlePage'] = $titulo;
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
@@ -31,7 +31,7 @@ class Web extends CI_Controller {
     }
 
 	public function semanas() {
-        $titulo = "Semana a Semana";
+        $titulo = "Fundamentos - Semana a Semana";
         $dataHeader['titlePage'] = $titulo;
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
@@ -40,7 +40,7 @@ class Web extends CI_Controller {
     }
 
 	public function ayudantias() {
-        $titulo = "Ayudantias";
+        $titulo = "Fundamentos - Ayudantias";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
@@ -50,7 +50,7 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );		
 	}
     public function practicar() {
-        $titulo = "Ejercicios";
+        $titulo = "Fundamentos - Ejercicios";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
@@ -61,7 +61,7 @@ class Web extends CI_Controller {
      }
 
     public function equipo() {
-        $titulo = "Profesores";
+        $titulo = "Fundamentos - Equipo";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
@@ -71,7 +71,7 @@ class Web extends CI_Controller {
      }
 
     public function proyectos() {
-        $titulo = "Proyectos";
+        $titulo = "Fundamentos - Proyectos";
         $dataHeader['titlePage'] = $titulo;
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
@@ -79,8 +79,17 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 
+    public function login() {
+        $titulo = "Fundamentos - Login";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['login'] = $this->load->view('frontend/login', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
     public function ejercicioDetalle() {
-        $titulo = "Ejercicio";
+        $titulo = "Fundamentos - Ejercicios";
         $dataHeader['titlePage'] = $titulo;
 
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
@@ -88,7 +97,19 @@ class Web extends CI_Controller {
 
         $data['ejercicio'] = $this->load->view('frontend/ejercicio', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
-     }
+    }
+	
+	public function sandboxProfesor(){
+        $titulo = "Fundamentos - SandBox de Profesor";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['sandboxprofesor'] = $this->load->view('frontend/sandboxprofesor', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );		
+		
+	}
 
       public function perfilProfesor() {
         $titulo = "Prefil Profesor";
