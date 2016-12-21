@@ -17,14 +17,14 @@
 		<div class = 'col-md-offset-1 col-md-10 col-xs-12'>
 			
 			<div class="btn-group btn-group-justified" role="group">
-				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default diff-btn">Fácil</button>
+				<div class="btn-group" role="group" >
+					<button type="button" class="btn btn-default diff-btn" onclick="filtrarEjercicios('Fácil');">Fácil</button>
+				</div>
+				<div class="btn-group" role="group" >
+					<button type="button" class="btn btn-default diff-btn" onclick="filtrarEjercicios('Medio');">Medio</button>
 				</div>
 				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default diff-btn">Medio</button>
-				</div>
-				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default diff-btn">Difícil</button>
+					<button type="button" class="btn btn-default diff-btn" onclick="filtrarEjercicios('Dificil');">Difícil</button>
 				</div>
 			</div>
 			
