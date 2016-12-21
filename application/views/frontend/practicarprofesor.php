@@ -25,11 +25,13 @@
 								<a class="btn btn-default common-btn" href = "<?php echo site_url("web/ejercicionuevo"); ?>">Nuevo ejercicio</a>
 							</div>
 						</div>
-						
 					</div>
 					<div class = 'row'>
-						Aqui debe de ir la lista de los ejercicios del profesor. A parte del boton ver, debe existir el boton editar y borrar. Cuando le des a editar, que redireccion como si fuera un ejercicio nuevo. De esta misma manera se deben mostrar los proyectos.
+						<div class= 'align-center'>
+						
+						</div>
 					</div>
+					<br>
 					
 				</div>
 			</div>
