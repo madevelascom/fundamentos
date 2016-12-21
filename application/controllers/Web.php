@@ -78,7 +78,7 @@ class Web extends CI_Controller {
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
 
-        $data['practicarProfesor'] = $this->load->view('frontend/practicarProfesor', array() );
+        $data['practicarprofesor'] = $this->load->view('frontend/practicarprofesor', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
