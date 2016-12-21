@@ -1,9 +1,10 @@
 <div class="container pt-70 pb-50">
 	<h1 class = 'clr-light-blue'>Sumar dígitos</h1>
 	<hr>
-	<p>Por: Leonardo Kuffo</p>	
+	<p>Por: Leonardo Kuffo</p>
 
 	<div class="row mt-xs-20 mt-md-20 mt-lg-20 pb-50">
+
 
 		<!-- Tabs -->
 		<ul class="nav nav-tabs" role="tablist" id = 'curso-tabs'>
@@ -41,6 +42,7 @@
 					<div class="col-md-12">
 						<div class="panel panel-default">
 							<div class="panel-heading"><span class="glyphicon glyphicon glyphicon-console"></span> Python IDE</div>
+
 							<div class="panel-body" id="panelIde">
 								<p><b class="ideliterales">1|  >>> _</b></p>
 								<p><b  class="ideliterales">2|</b></p>
@@ -81,24 +83,8 @@
 							No has realizado algún envío aun.
 						</div>
 					</div>
-					<div class = 'row pt-40 pb-40'>
-						<div class = 'align-center'>
-							<button type="submit" class="btn btn-default common-btn">Enviar ejercicio</button>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-</div>
 </div>

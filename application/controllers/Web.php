@@ -129,6 +129,28 @@ class Web extends CI_Controller {
 		
 	}
 
+      public function perfilProfesor() {
+        $titulo = "Prefil Profesor";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['profileprofesor'] = $this->load->view('frontend/profesorprofile', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+     }
+
+      public function perfilEstudiante() {
+        $titulo = "Prefil Estudiante";
+        $dataHeader['titlePage'] = $titulo;
+
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+
+        $data['profilestudiante'] = $this->load->view('frontend/estudianteprofile', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+     }
+
     public function cargar_listaDeEjercicios(){
         $data = "";
         $this->load->view('frontend/ejercicios.json', $data);

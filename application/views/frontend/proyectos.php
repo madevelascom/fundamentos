@@ -1,3 +1,4 @@
+
 <div class = 'container-fluid pt-70'>
 	<div class = 'container'>
 		<h1 class="align-center">Proyectos</h1>  
@@ -6,6 +7,7 @@
 
 	</div>
 </div>
+
 <section id="proyectos-body">
 	<div class="container">
 		<div class="row">
