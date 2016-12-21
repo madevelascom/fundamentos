@@ -10,18 +10,41 @@
 
 <section id="proyectos-body">
 	<div class="container">
-		<div class = 'row'>
-						<div class = 'col-md-2'>
-							<div class = 'align-center'>
-								<a class="btn btn-default common-btn" href = "<?php echo site_url("web/proyectonuevo"); ?>">Nuevo proyecto</a>
+		<div class="row mb-xs-40 mb-md-40 mb-lg-40">
+			<div class="col-lg-10 col-lg-offset-1">
+				<ul class="nav nav-tabs" role="tablist" id = 'curso-tabs'>
+					<li role="presentation" class="active"><a href="#new-proj" aria-controls="new-proj" role="tab" data-toggle="tab"><span class="daw-folder-upload"> </span>Nuevo Proyecto</a></li>
+					<li role="presentation"><a id="up-proj-link" href="#up-proj" aria-controls="up-proj" role="tab" data-toggle="tab" onclick="loadProject()"><span class="daw-folder-plus"> </span>Proyectos Subidos</a></li>
+				</ul>
+				<div class="tab-content mb-xs-40 mb-md-40 mt-lg-40">
+					<div role="tabpanel" class="tab-pane fade in active" id="new-proj">
+						<form>
+							<div class="form-group">
+								<label for="project-title">Título:</label>
+							    <input class="form-control" type="text" placeholder="Ingresa un título..." id="project-title">
 							</div>
-						</div>
-						
+							<div class="form-group">
+							    <label for="project-description">Descripción:</label>
+							    <textarea class="form-control" id="project-description" rows="3"></textarea>
+						  	</div>
+						  	<div class="form-group">
+					  	  		<label for="project-date">Fecha de Entrega:</label>
+					  	    	<input class="form-control" type="date" id="project-date">	
+						  	</div>
+						  	<div class="form-group">
+						  		<label for="project-tags">Tags:</label>
+				  		   		<input class="form-control" type="tags" placeholder="Añade algunos tags..." id="project-tags"/>
+						  	</div>
+						  	<div class="form-group">
+						  	   <input type="file" class="form-control-file" id="project-file" aria-describedby="fileHelp">
+						  	 </div>
+						  	<button type="submit" class="btn btn-primary">Enviar</button>
+						</form>
 					</div>
-		<div class="row pt-30">
-
-			<div class="list-group-item mb-15"><div class="row"><div class="col-md-10"><h4 class="list-group-item-heading tit-list-eje">Reportes Instituto Geofisico</h4><div class="list-group-item-text pb-5"></div></div><div class="col-md-2 solve-col"><a class="btn btn-default diff-btn solve-btn" href="ejercicio">Ver</a></div></div><div class="row"><div class="col-md-10"><span class="label label-default">suma</span><span class="label label-default">digitos</span></div><div class="col-md-2"></div></div></div>
-
+					<div role="tabpanel" class="tab-pane fade" id="up-proj">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
