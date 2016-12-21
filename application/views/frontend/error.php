@@ -8,7 +8,7 @@
 		</div>
 	</div>
 	<div class = 'row'>
-		<h1 class = 'align-center mt-40 landing-section4-title'>¡Lo sentimos!</h1>
+		<h1 class = 'align-center mt-40 landing-section4-title bold'>¡Lo sentimos!</h1>
 			<h3 class = 'align-center mt-40'>Emelec, Josselyn y Pepe no encontraron la página solicitada</h3>
 	</div>
 </div>

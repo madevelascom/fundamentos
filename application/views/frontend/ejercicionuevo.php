@@ -57,12 +57,23 @@
 							</div>  <!-- /div.form-inline -->
 						</div>
 					</div>
-
-					<div class = 'pt-20'>
-
+					<div class="form-group">
+						<div class = 'row pt-15'>
+							<div class = 'col-md-3 col-xs-6'>
+								<label for="project-description">Dificultad</label>
+								<select class="form-control">
+									<option>Fácil</option>
+									<option>Medio</option>
+									<option>Difícil</option>
+								</select>
+							</div>
+						</div>
+					</div>		
+					<div class = 'form-group'>
 						<label for="project-tags">Tags:</label>
 						<input class="form-control" type="tags" placeholder="Añade algunos tags..." data-role="tagsinput" id="project-tags"/>
 					</div>
+
 					<div class = 'align-center pt-20'>
 						<button type="submit" class="btn btn-default common-btn">Enviar ejercicio</button>
 						<button type="submit" class="btn btn-default common-btn">Regresar a ejercicios</button>
