@@ -16,6 +16,8 @@
 <script type="text/javascript" src="<?php echo base_url('public/frontend/js/bootstrap.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('public/frontend/js/bootstrap-tagsinput.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('public/frontend/js/dynamicform.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('public/frontend/js/validarProyectos.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('public/frontend/js/validarEjercicioNuevo.js'); ?>"></script>
 <script src="<?php echo base_url('public/frontend/js/owl.carousel.js'); ?>"></script>
 <script src="<?php echo base_url('public/frontend/js/jquery.smartscroll.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('public/frontend/js/israelequipo.js'); ?>"></script>
