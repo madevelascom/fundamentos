@@ -2,10 +2,9 @@
 	<h1 class = 'clr-light-blue'>Sumar dígitos</h1>
 	<hr>
 	<p>Por: Leonardo Kuffo</p>
-
 	<div class="row mt-xs-20 mt-md-20 mt-lg-20 pb-50">
-
-
+		<div id="exitoejercicio">
+		</div>
 		<!-- Tabs -->
 		<ul class="nav nav-tabs" role="tablist" id = 'curso-tabs'>
 			<li role="presentation" class="active"><a href="#problema" aria-controls="problema" role="tab" data-toggle="tab">Problema</a></li>
@@ -71,7 +70,7 @@
 						<a href="#" class = "btn common-btn">Probar código</a>
 					</div>
 					<div class = 'col-md-2'>
-						<a href="#" class = "btn common-btn">Enviar código</a>
+						<a href="#" class = "btn common-btn" onclick="mensajeDeExito();">Enviar código</a>
 					</div>
 				</div>
 
