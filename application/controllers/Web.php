@@ -56,7 +56,7 @@ class Web extends CI_Controller {
         $data['header'] = $this->load->view('frontend/header', $dataHeader);
         $data['menu'] = $this->load->view('frontend/menu', array() );
 
-        $data['ejercicios'] = $this->load->view('frontend/ejercicios', array() );
+        $data['practicar'] = $this->load->view('frontend/practicar', array() );
         $data['footer'] = $this->load->view('frontend/footer', array() );
      }
 
@@ -79,6 +79,15 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 
+    public function proyectonuevo() {
+        $titulo = "Fundamentos - Proyecto Nuevo";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['proyectonuevo'] = $this->load->view('frontend/proyectonuevo', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
     public function login() {
         $titulo = "Fundamentos - Login";
         $dataHeader['titlePage'] = $titulo;
@@ -88,7 +97,7 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 
-    public function ejercicioDetalle() {
+    public function ejercicio() {
         $titulo = "Fundamentos - Ejercicios";
         $dataHeader['titlePage'] = $titulo;
 
@@ -99,6 +108,15 @@ class Web extends CI_Controller {
         $data['footer'] = $this->load->view('frontend/footer', array() );
     }
 	
+    public function ejercicionuevo() {
+        $titulo = "Fundamentos - Proyecto Nuevo";
+        $dataHeader['titlePage'] = $titulo;
+        $data['header'] = $this->load->view('frontend/header', $dataHeader);
+        $data['menu'] = $this->load->view('frontend/menu', array() );
+        $data['ejercicionuevo'] = $this->load->view('frontend/ejercicionuevo', array() );
+        $data['footer'] = $this->load->view('frontend/footer', array() );
+    }
+
 	public function sandboxProfesor(){
         $titulo = "Fundamentos - SandBox de Profesor";
         $dataHeader['titlePage'] = $titulo;

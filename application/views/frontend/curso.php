@@ -4,11 +4,11 @@
 	<h1 class = 'align-center'>Información del curso</h1>
 	<div class="container pt-20">
 		<div class="row">
-			<div class="col-lg-12 curso-desc">
+		<div class="col-md-offset-1 col-md-10 curso-desc">
 				El curso presenta a los estudiantes estrategias para resolver problemas comunes en diversas profesiones por medio del diseño e implementación de soluciones basadas en el uso de un lenguaje de programación. Cubre los principios básicos para que el estudiante pueda leer y escribir programas, haciendo énfasis en el diseño y análisis de algoritmos. Además, introduce a los estudiantes en el uso de herramientas de desarrollo y depuración.
-			</div>
 		</div>
-		<div class="row mt-xs-20 mt-md-20 mt-lg-20 pb-50">
+		</div>
+		<div class="row mt-xs-20 pt-20 mt-md-20 mt-lg-20 pb-50">
 			<div class="col-lg-10 col-lg-offset-1">
 				<!-- Tabs -->
 				<ul class="nav nav-tabs" role="tablist" id = 'curso-tabs'>
@@ -120,40 +120,40 @@
 								<li><span class="bold">Las evaluaciones no podrán ser recuperadas bajo ningún motivo.</span></li>
 								<li>La ponderación de las calificaciones es la siguiente:
 									<div class = 'table-responsive'>
-									<table class="table ">
-										<thead>
-											<th></th>
-											<th>I Evaluación</th>
-											<th>II Evaluación</th>
-											<th>III Evaluación</th>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Examen</td>
-												<td>50%</td>
-												<td>50%</td>
-												<td>75%</td>
-											</tr>
-											<tr>
-												<td>Proyecto y Avances</td>
-												<td>25%</td>
-												<td>25%</td>
-												<td>25% *</td>
-											</tr>
-											<tr>
-												<td>Talleres</td>
-												<td>10%</td>
-												<td>10%</td>
-												<td>---</td>
-											</tr>
-											<tr>
-												<td>Lecciones</td>
-												<td>15%</td>
-												<td>15%</td>
-												<td>---</td>
-											</tr>
-										</tbody>
-									</table>
+										<table class="table ">
+											<thead>
+												<th></th>
+												<th>I Evaluación</th>
+												<th>II Evaluación</th>
+												<th>III Evaluación</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Examen</td>
+													<td>50%</td>
+													<td>50%</td>
+													<td>75%</td>
+												</tr>
+												<tr>
+													<td>Proyecto y Avances</td>
+													<td>25%</td>
+													<td>25%</td>
+													<td>25% *</td>
+												</tr>
+												<tr>
+													<td>Talleres</td>
+													<td>10%</td>
+													<td>10%</td>
+													<td>---</td>
+												</tr>
+												<tr>
+													<td>Lecciones</td>
+													<td>15%</td>
+													<td>15%</td>
+													<td>---</td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
 									<span class="table-footer">*Si un estudiante aprobó la materia podría dar el examen de mejoramiento sobre 100%</span>
 								</li>

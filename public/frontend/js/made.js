@@ -1,4 +1,3 @@
-
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
 	e.preventDefault();
@@ -61,6 +60,7 @@ function menulogin(){
 	}
 }
 
+
 $(document).ready(function() {
 
 	var docHeight = $(window).height();
@@ -72,5 +72,5 @@ $(document).ready(function() {
 		$('#footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
 	}
 
-	$("#menulogin").on('click', menulogin)
+	
 });

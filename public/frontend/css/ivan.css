@@ -153,18 +153,18 @@ html, body {
 	font-size: 16px;
 }
 /* Estilos para cambiar el color de los tabs - BEGIN */
-#curso-body .nav-tabs>li.active>a,
-#curso-body .nav-tabs>li.active>a:focus,
-#curso-body .nav-tabs>li.active>a:hover{
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover{
 	background-color: #01A4A4;
 	color: #FFF;
 	transition: all 0.25s;
 }
-#curso-body .nav-tabs>li>a{
+.nav-tabs>li>a{
 	color: #01A4A4;
 	transition: all 0.25s;
 }
-#curso-body .nav-tabs>li>a:hover{
+.nav-tabs>li>a:hover{
 	border-color: #e6e6e6 #e6e6e6 #ddd;
 }
 /* END */

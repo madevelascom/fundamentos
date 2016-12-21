@@ -1,12 +1,11 @@
-<header id="proyectos-header" class="mt-xs-50 mt-md-50 mt-lg-50">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Proyectos</h1>                       
-            </div>
-        </div>
-    </div>
-</header>
+<div class = 'container-fluid pt-70'>
+	<div class = 'container'>
+		<h1 class="align-center">Proyectos</h1>  
+	</div>
+	<div class = 'container'>
+
+	</div>
+</div>
 <section id="proyectos-body">
 	<div class="container">
 		<div class="row">
