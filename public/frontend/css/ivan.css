@@ -205,6 +205,10 @@ html, body {
 #proyectos-header{
 	text-align: center;
 }
+#proyectos-header .alert{
+	opacity: 0;
+	transition: all 0.25s;
+}
 /* ===SIDE-BAR=== */
 /* Estilos para cambiar el color de los tabs - BEGIN */
 #proyectos-side-bar .nav>li.active>a,
@@ -232,7 +236,7 @@ html, body {
 
 /**
  * ========================================
- * PROYECTOS
+ * PLANIFICACION
  * ========================================
  */
 
@@ -252,6 +256,7 @@ html, body {
 .modal-title{
 	font-weight: bold;
 }
+
 
  
 /**

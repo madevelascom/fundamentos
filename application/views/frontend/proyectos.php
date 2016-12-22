@@ -1,10 +1,15 @@
 
-<div class = 'container-fluid pt-70'>
+<div id="proyectos-header" class = 'container-fluid pt-70'>
 	<div class = 'container'>
-		<h1 class="align-center">Lista de Proyectos</h1>  
-	</div>
-	<div class = 'container'>
-
+		<h1 class="align-center">Lista de Proyectos</h1>
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="alert alert-success alert-dismissable">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  <strong>Success!</strong> Indicates a successful or positive action.
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -21,24 +26,24 @@
 						<form>
 							<div class="form-group">
 								<label for="project-title">Título:</label>
-							    <input class="form-control" type="text" placeholder="Ingresa un título..." id="project-title">
+							    <input class="form-control validarTitulo" type="text" placeholder="Ingresa un título..." id="project-title">
 							</div>
 							<div class="form-group">
 							    <label for="project-description">Descripción:</label>
-							    <textarea class="form-control" id="project-description" rows="3"></textarea>
+							    <textarea class="form-control validarDesc" id="project-description" rows="3"></textarea>
 						  	</div>
 						  	<div class="form-group">
 					  	  		<label for="project-date">Fecha de Entrega:</label>
-					  	    	<input class="form-control" type="date" id="project-date">	
+					  	    	<input class="form-control validarDate" type="date" id="project-date">	
 						  	</div>
 						  	<div class="form-group">
 						  		<label for="project-tags">Tags:</label>
-				  		   		<input class="form-control" type="tags" placeholder="Añade algunos tags..." id="project-tags"/>
+				  		   		<input class="form-control validarTags" type="tags" placeholder="Añade algunos tags..." id="project-tags"/>
 						  	</div>
 						  	<div class="form-group">
 						  	   <input type="file" class="form-control-file" id="project-file" aria-describedby="fileHelp">
 						  	 </div>
-						  	<button type="submit" class="btn btn-primary">Enviar</button>
+						  	<button id="botonvalidacion" type="submit" class="btn btn-primary">Enviar</button>
 						</form>
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="up-proj">
