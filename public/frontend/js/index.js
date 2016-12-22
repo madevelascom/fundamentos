@@ -212,3 +212,8 @@ function load_edicion(){
         }
     });
 }    
+
+function mensajeDeExito(){
+	$("#exitoejercicio").empty();
+	$("#exitoejercicio").append('<div class="alert alert-success"><strong>Enhorabuena!</strong> Has resuelto el ejercicio.</div>')
+}
