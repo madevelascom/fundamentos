@@ -5,7 +5,7 @@ html {
 html, body {
     margin: 0;
     height: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Muli';
     font-size:16px;
 }
 
@@ -205,6 +205,10 @@ html, body {
 #proyectos-header{
 	text-align: center;
 }
+#proyectos-header .alert{
+	opacity: 0;
+	transition: all 0.25s;
+}
 /* ===SIDE-BAR=== */
 /* Estilos para cambiar el color de los tabs - BEGIN */
 #proyectos-side-bar .nav>li.active>a,
@@ -232,7 +236,7 @@ html, body {
 
 /**
  * ========================================
- * PROYECTOS
+ * PLANIFICACION
  * ========================================
  */
 
@@ -249,6 +253,10 @@ html, body {
 	text-decoration: none;
 	transition: all 0.15s;
 }
+.modal-title{
+	font-weight: bold;
+}
+
 
  
 /**

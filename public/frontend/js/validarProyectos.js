@@ -1,8 +1,10 @@
 $( document ).ready(function() {
+	//$("#proyectos-header .alert").css({"opacity": "1", "transition": "all 0.25s"});
 	var validarTitulo = /[A-Z]+[a-z]+.([aA0-zZ9]*.[aA0-zZ9])*/;
 	var valTagk =  /^[a-zA-Z]+$/;
 	var valDesk = /^[a-zA0-Z9]+\s([a-zA0-Z9]+\s*)*/;
 	$("#botonvalidacion").click( function() {
+		// $("#proyectos-header .alert").css({"opacity": "1", "transition": "all 0.25s"});
 		if ( $(".validarTitulo").val() == "" || !validarTitulo.test($(".validarTitulo").val()) ) {
 			$(".validarTitulo").focus().after("<span class='error'>Ingrese un Titulo Válida</span>");
             return false;
@@ -16,7 +18,6 @@ $( document ).ready(function() {
 			$(".validarTags").focus().after("<span class='error'>Ingrese un Tag válido</span>");
             return false;
 		}
-
 	});
 	 $(".validarTitulo, .validarDesc, .validarDate, .validarTags ").keyup(function(){
         if( $(this).val() != "" ){
